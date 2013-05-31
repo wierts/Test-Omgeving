@@ -8,6 +8,7 @@
 *.acr
 *.alg
 *.bbl
+*.texnicle
 *.blg
 *.dvi
 *.glg
