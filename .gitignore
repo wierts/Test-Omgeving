@@ -6,6 +6,7 @@
 *.ist
 *.acn
 *.acr
+*.pdf
 *.alg
 *.bbl
 *.texnicle
