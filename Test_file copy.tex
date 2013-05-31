@@ -1,0 +1,54 @@
+
+\documentclass[11pt]{thesis}
+\usepackage[small,normal,bf,up]{caption}
+\usepackage{eurosym,supertabular,multirow,tabularx} %,bigstrut,
+\usepackage[toc,page,title]{appendix}
+\usepackage[acronym,toc]{glossaries}  
+\glsdisablehyper%
+\makeglossaries%
+\doublespacing%
+\usepackage[babel]{csquotes}
+%\usepackage[backend=biber,style=authoryear-luh-ipw,isbn=false,url=false]{biblatex} %,style=historian ,citestyle=apa
+\usepackage[backend=biber,citestyle=authoryear-comp,bibstyle=authortitle,sorting=nyt,dashed=false,maxcitenames=1,isbn=false,url=false]{biblatex}
+
+
+
+\pagestyle{fancy}
+\fancyhf{}     % clear header & footer
+\fancyhead[C]{\small\sf\nouppercase{\leftmark}}
+\fancyhead[L]{\includegraphics[width=.19\textwidth]{ThesisFigs/uva_logo}} %links tu logo
+%\fancyhead[R]{thepage} %rechts Abbott logo \includegraphics[width=.2\textwidth]{ThesisFigs/abbott}
+\fancyfoot[L]{thepage}
+\fancyfoot[R]{\thepage}
+
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%\renewcommand{\captionfont}{\small\itshape}
+
+\renewcommand{\chaptermark}[1]{\markboth{\textbf{\thechapter\ #1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+\title{My Report}
+\author{my good self}
+\date{}
+\maketitle
+\chapter{}
+\newpage
+\section{}
+\end{document}
+			

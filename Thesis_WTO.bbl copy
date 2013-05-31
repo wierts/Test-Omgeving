@@ -1,0 +1,999 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nyt}
+    \entry{Abbott:2012:2.-THE-FUTURE}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=aaabe1c6678629fc3048188dde8b9896}{Abbott}{A\bibinitperiod}{Roderick}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=aaabe1c6678629fc3048188dde8b9896}{Abbott}{A\bibinitperiod}{Roderick}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aaabe1c6678629fc3048188dde8b9896}
+      \strng{fullhash}{aaabe1c6678629fc3048188dde8b9896}
+      \field{sortinit}{A}
+      \field{labelyear}{2012}
+      \field{labeltitle}{2. THE FUTURE OF THE MULTILATERAL TRADING SYSTEM AND THE WTO}
+      \field{journaltitle}{The Future and the WTO: Confronting the Challenges}
+      \field{title}{2. THE FUTURE OF THE MULTILATERAL TRADING SYSTEM AND THE WTO}
+      \field{year}{2012}
+      \field{pages}{10}
+    \endentry
+    \entry{Barbra-Miller:2006:Anthropology}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=666571ce0edaf521edf6ef572da0b07a}{Bacon}{B\bibinitperiod}{Allyn\bibnamedelima &}{A\bibinitperiod\bibinitdelim &\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=666571ce0edaf521edf6ef572da0b07a}{Bacon}{B\bibinitperiod}{Allyn\bibnamedelima &}{A\bibinitperiod\bibinitdelim &\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{666571ce0edaf521edf6ef572da0b07a}
+      \strng{fullhash}{666571ce0edaf521edf6ef572da0b07a}
+      \field{sortinit}{B}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Anthropology}
+      \field{title}{Anthropology}
+      \field{year}{2006}
+      \keyw{Trade History}
+      \warn{\item Name "Barbra Miller, Bernard Wood, Andrew Balansky, Julio Mercader, Melissa Panger" has too many commas: skipping name}
+    \endentry
+    \entry{Barfield:2001:Free}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=0f560dc6de286ba7025451b5a1c005f0}{Barfield}{B\bibinitperiod}{Claude\bibnamedelima E}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0f560dc6de286ba7025451b5a1c005f0}{Barfield}{B\bibinitperiod}{Claude\bibnamedelima E}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {HeinOnline}%
+      }
+      \strng{namehash}{0f560dc6de286ba7025451b5a1c005f0}
+      \strng{fullhash}{0f560dc6de286ba7025451b5a1c005f0}
+      \field{sortinit}{B}
+      \field{labelyear}{2001}
+      \field{labeltitle}{Free Trade, Sovereignty, Democracy: Future of the World Trade Organization}
+      \field{journaltitle}{Chi. J. Int'l L.}
+      \field{title}{Free Trade, Sovereignty, Democracy: Future of the World Trade Organization}
+      \field{volume}{2}
+      \field{year}{2001}
+      \field{pages}{403}
+    \endentry
+    \entry{Buckley:2007:The-Determinants}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=e399c919ad5364ca91428f1927d03a22}{Buckley}{B\bibinitperiod}{Peter\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea01cd71d71b332b719cae61157da834}{Clegg}{C\bibinitperiod}{L\bibnamedelima Jeremy}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c79a7159b760a9f7d825f28b78b6704a}{Cross}{C\bibinitperiod}{Adam\bibnamedelima R}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f1e33032cdd17c1c4c17fe05bd0772d}{Liu}{L\bibinitperiod}{Xin}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=34cbd537bb4cce64cc1246c90cf0e42f}{Voss}{V\bibinitperiod}{Hinrich}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f8208bdb53e2d25935c277c079ab1e3f}{Zheng}{Z\bibinitperiod}{Ping}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=e399c919ad5364ca91428f1927d03a22}{Buckley}{B\bibinitperiod}{Peter\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea01cd71d71b332b719cae61157da834}{Clegg}{C\bibinitperiod}{L\bibnamedelima Jeremy}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c79a7159b760a9f7d825f28b78b6704a}{Cross}{C\bibinitperiod}{Adam\bibnamedelima R}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f1e33032cdd17c1c4c17fe05bd0772d}{Liu}{L\bibinitperiod}{Xin}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=34cbd537bb4cce64cc1246c90cf0e42f}{Voss}{V\bibinitperiod}{Hinrich}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f8208bdb53e2d25935c277c079ab1e3f}{Zheng}{Z\bibinitperiod}{Ping}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{711e82875baa4c97d0b165cbc719db72}
+      \strng{fullhash}{5107bf90d8dc79834daf591e4a77a66f}
+      \field{sortinit}{B}
+      \field{labelyear}{2007}
+      \field{labeltitle}{The Determinants of Chinese Outward Foreign Direct Investment}
+      \field{journaltitle}{Journal of International Business Studies}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{The Determinants of Chinese Outward Foreign Direct Investment}
+      \field{volume}{38}
+      \field{year}{2007}
+      \field{pages}{499\bibrangedash 518}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.ememar.2011.06.001
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/4540439
+      \endverb
+    \endentry
+    \entry{Cantwell:2009:An-evolutionary}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=819c5c85025331f2e8a4243287ff0231}{Cantwell}{C\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f518ed6e706fdc7b5e23a92ca2ac38bb}{Dunning}{D\bibinitperiod}{John\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a1fc5e7f1398b9584553d67ea9d0bd0a}{Lundan}{L\bibinitperiod}{Sarianna\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=819c5c85025331f2e8a4243287ff0231}{Cantwell}{C\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f518ed6e706fdc7b5e23a92ca2ac38bb}{Dunning}{D\bibinitperiod}{John\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a1fc5e7f1398b9584553d67ea9d0bd0a}{Lundan}{L\bibinitperiod}{Sarianna\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{3e14e3a95d6a8a2659757925d760d411}
+      \strng{fullhash}{5f5acda1e1cdc9b4f546be064ea030de}
+      \field{sortinit}{C}
+      \field{labelyear}{2009}
+      \field{labeltitle}{An evolutionary approach to understanding international business activity: The co-evolution of MNEs and the institutional environment}
+      \field{journaltitle}{Journal of International Business Studies}
+      \field{number}{4}
+      \field{title}{An evolutionary approach to understanding international business activity: The co-evolution of MNEs and the institutional environment}
+      \field{volume}{41}
+      \field{year}{2009}
+      \field{pages}{567\bibrangedash 586}
+    \endentry
+    \entry{Dodge:1994:Stage}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=a10f4a00534cc968f5200981f2ca8655}{Dodge}{D\bibinitperiod}{H\bibnamedelima Robert}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=023e34bf364a79d4946494625e8d1e9a}{Fullerton}{F\bibinitperiod}{Sam}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=08def1de52aee3b31dd57c4b8e8ffaf0}{Robbins}{R\bibinitperiod}{John\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=a10f4a00534cc968f5200981f2ca8655}{Dodge}{D\bibinitperiod}{H\bibnamedelima Robert}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=023e34bf364a79d4946494625e8d1e9a}{Fullerton}{F\bibinitperiod}{Sam}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=08def1de52aee3b31dd57c4b8e8ffaf0}{Robbins}{R\bibinitperiod}{John\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{39d598322242cf4ffcc83bd53a195be4}
+      \strng{fullhash}{e3268bfa9e1cad698e9107c03036470f}
+      \field{sortinit}{D}
+      \field{labelyear}{1994}
+      \field{labeltitle}{Stage of the organizational life cycle and competition as mediators of problem perception for small businesses}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{Stage of the organizational life cycle and competition as mediators of problem perception for small businesses}
+      \field{volume}{15}
+      \field{year}{1994}
+      \field{pages}{121\bibrangedash 134}
+      \verb{url}
+      \verb http://www.jstor.org/stable/2486867
+      \endverb
+    \endentry
+    \entry{Draucker:2007:Theoretical}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=c6ed13c7bf52bbd9169071727e0d857a}{Draucker}{D\bibinitperiod}{Claire\bibnamedelima B}{C\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a3c81189683732f17dc87f0e6204d1cf}{Martsolf}{M\bibinitperiod}{Donna\bibnamedelima S}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5992a84c3002d4abaab3cdda82137fd0}{Ross}{R\bibinitperiod}{Ratchneewan}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=86003d4f116f6b9be694dd0c117631f0}{Rusk}{R\bibinitperiod}{Thomas\bibnamedelima B}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c6ed13c7bf52bbd9169071727e0d857a}{Draucker}{D\bibinitperiod}{Claire\bibnamedelima B}{C\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a3c81189683732f17dc87f0e6204d1cf}{Martsolf}{M\bibinitperiod}{Donna\bibnamedelima S}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5992a84c3002d4abaab3cdda82137fd0}{Ross}{R\bibinitperiod}{Ratchneewan}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=86003d4f116f6b9be694dd0c117631f0}{Rusk}{R\bibinitperiod}{Thomas\bibnamedelima B}{T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{a203e3163871ae9718de1594877f88f7}
+      \strng{fullhash}{5ca485cce1d893a7d3bf23c293e16352}
+      \field{sortinit}{D}
+      \field{labelyear}{2007}
+      \field{labeltitle}{Theoretical sampling and category development in grounded theory}
+      \field{journaltitle}{Qualitative health research}
+      \field{number}{8}
+      \field{title}{Theoretical sampling and category development in grounded theory}
+      \field{volume}{17}
+      \field{year}{2007}
+      \field{pages}{1137\bibrangedash 1148}
+      \verb{doi}
+      \verb 10.1177/1049732307308450
+      \endverb
+    \endentry
+    \entry{Duzgit:2011:Turkish}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=3956befe052b6d86ea784d916441b7ee}{Düzgit}{D\bibinitperiod}{S.A.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2cee0bf62715405fb5eeb2dacf953fd1}{Suvarierol}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=3956befe052b6d86ea784d916441b7ee}{Düzgit}{D\bibinitperiod}{S.A.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2cee0bf62715405fb5eeb2dacf953fd1}{Suvarierol}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{8c4116b4071f80712ccc4032cbbe303f}
+      \strng{fullhash}{c59f39c75d4ea6284ce6413781bd69c5}
+      \field{sortinit}{D}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Turkish Accession and Defining the Boundaries of Nationalism and Supranationalism: Discourses in the European Commission}
+      \field{journaltitle}{South European Society and Politics}
+      \field{number}{3}
+      \field{title}{Turkish Accession and Defining the Boundaries of Nationalism and Supranationalism: Discourses in the European Commission}
+      \field{volume}{16}
+      \field{year}{2011}
+      \field{pages}{469\bibrangedash 482}
+    \endentry
+    \entry{Better_Stories_1991}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=37a5815b12ba624901909213917827a7}{Dyer}{D\bibinitperiod}{W.G.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=99e5c6c097978429d133d7fe37faad97}{Wilkins}{W\bibinitperiod}{A.L.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=37a5815b12ba624901909213917827a7}{Dyer}{D\bibinitperiod}{W.G.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=99e5c6c097978429d133d7fe37faad97}{Wilkins}{W\bibinitperiod}{A.L.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{eb6d833a96b26e9359c48776a72d0040}
+      \strng{fullhash}{17cf7fc3078cec1deffa13b98cc3a84d}
+      \field{sortinit}{D}
+      \field{labelyear}{1991}
+      \field{labeltitle}{Better stories, not better constructs, to generate better theory: a rejoinder to Eisenhardt.}
+      \field{abstract}{Abstract In this article the authors discuss an article published in a pervious issue that presented an approach to building better theory through the use of case studies. The authors suggest that the paper does not do enough to support the claim that the methods.}
+      \field{journaltitle}{Academy of management review}
+      \field{number}{3}
+      \field{title}{Better stories, not better constructs, to generate better theory: a rejoinder to Eisenhardt.}
+      \field{volume}{16}
+      \field{year}{1991}
+      \field{pages}{613\bibrangedash 619}
+    \endentry
+    \entry{Eisenhardt:1989:Building}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=1,hash=7f27a8923bfb12d6e9cb185cc19d552b}{Eisenhardt}{E\bibinitperiod}{Kathleen\bibnamedelima M.}{K\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=1,hash=7f27a8923bfb12d6e9cb185cc19d552b}{Eisenhardt}{E\bibinitperiod}{Kathleen\bibnamedelima M.}{K\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Academy of Management}%
+      }
+      \strng{namehash}{7f27a8923bfb12d6e9cb185cc19d552b}
+      \strng{fullhash}{7f27a8923bfb12d6e9cb185cc19d552b}
+      \field{sortinit}{E}
+      \field{labelyear}{1989}
+      \field{labeltitle}{Building Theories from Case Study Research}
+      \field{abstract}{This paper describes the process of inducting theory using case studies-from specifying the research questions to reaching closure. Some features of the process, such as problem definition and construct validation, are similar to hypothesis-testing research. Others, such as within-case analysis and replication logic, are unique to the inductive, case-oriented process. Overall, the process described here is highly iterative and tightly linked to data. This research approach is especially appropriate in new topic areas. The resultant theory is often novel, testable, and empirically valid. Finally, framebreaking insights, the tests of good theory (e.g., parsimony, logical coherence), and convincing grounding in the evidence are the key criteria for evaluating this type of research.}
+      \field{issn}{03637425}
+      \field{journaltitle}{Academy of Management Review}
+      \field{number}{4}
+      \field{title}{Building Theories from Case Study Research}
+      \field{volume}{14}
+      \field{year}{1989}
+      \field{pages}{pages}
+    \endentry
+    \entry{BuildingTheories}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=1,hash=5f99dd4cd02307792dfdaaf4b8f5b098}{Eisenhardt}{E\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=1,hash=5f99dd4cd02307792dfdaaf4b8f5b098}{Eisenhardt}{E\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5f99dd4cd02307792dfdaaf4b8f5b098}
+      \strng{fullhash}{5f99dd4cd02307792dfdaaf4b8f5b098}
+      \field{sortinit}{E}
+      \field{labelyear}{1989}
+      \field{labeltitle}{Building theories from case study research}
+      \field{abstract}{This paper describes the process of inducting theory using case studies-from specifying the research questions to reaching closure. Some features of the process, such as problem definition and construct validation, are similar to hypothesis-testing research. Others, such.}
+      \field{journaltitle}{Academy of management review}
+      \field{title}{Building theories from case study research}
+      \field{year}{1989}
+      \field{pages}{532\bibrangedash 550}
+    \endentry
+    \entry{Eisenhardt:1991:Better}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=1,hash=5f99dd4cd02307792dfdaaf4b8f5b098}{Eisenhardt}{E\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=1,hash=5f99dd4cd02307792dfdaaf4b8f5b098}{Eisenhardt}{E\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Academy of Management}%
+      }
+      \strng{namehash}{5f99dd4cd02307792dfdaaf4b8f5b098}
+      \strng{fullhash}{5f99dd4cd02307792dfdaaf4b8f5b098}
+      \field{sortinit}{E}
+      \field{extrayear}{1}
+      \field{labelyear}{1991}
+      \field{labeltitle}{Better stories and better constructs: The case for rigor and comparative logic.}
+      \field{journaltitle}{Academy of Management review}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Better stories and better constructs: The case for rigor and comparative logic.}
+      \field{volume}{16}
+      \field{year}{1991}
+      \field{pages}{620\bibrangedash 627}
+      \verb{url}
+      \verb http://www.jstor.org/stable/258921
+      \endverb
+    \endentry
+    \entry{Eisenhardt_better_contructs}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=1,hash=5f99dd4cd02307792dfdaaf4b8f5b098}{Eisenhardt}{E\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=1,hash=5f99dd4cd02307792dfdaaf4b8f5b098}{Eisenhardt}{E\bibinitperiod}{K.M.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5f99dd4cd02307792dfdaaf4b8f5b098}
+      \strng{fullhash}{5f99dd4cd02307792dfdaaf4b8f5b098}
+      \field{sortinit}{E}
+      \field{extrayear}{2}
+      \field{labelyear}{1991}
+      \field{labeltitle}{Better stories and better constructs: The case for rigor and comparative logic.}
+      \field{abstract}{Abstract In this article the author replies to comments made over an approach to building theory using case studies as previously presented by the author. She notes that the benefits of her method are that the researcher is granted the opportunity to view a variety of cases.}
+      \field{journaltitle}{Academy of Management review}
+      \field{number}{3}
+      \field{title}{Better stories and better constructs: The case for rigor and comparative logic.}
+      \field{volume}{16}
+      \field{year}{1991}
+      \field{pages}{620\bibrangedash 627}
+    \endentry
+    \entry{ELLINAS:2011:Supranationalism}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=2cb5c32a4388d8489a24eeae3964542b}{ELLINAS}{E\bibinitperiod}{ANTONIS\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64fcb07b0e8b163f1b4cdcfd5ecef8d1}{SULEIMAN}{S\bibinitperiod}{EZRA\bibnamedelima N.}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=2cb5c32a4388d8489a24eeae3964542b}{ELLINAS}{E\bibinitperiod}{ANTONIS\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64fcb07b0e8b163f1b4cdcfd5ecef8d1}{SULEIMAN}{S\bibinitperiod}{EZRA\bibnamedelima N.}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing Ltd}%
+      }
+      \strng{namehash}{49383602ca76cb0c21f0c51f33a76d3b}
+      \strng{fullhash}{981f3f40afdab58735767fcd37c6d249}
+      \field{sortinit}{E}
+      \field{extrayear}{1}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Supranationalism in a Transnational Bureaucracy: The Case of the European Commission}
+      \field{isbn}{1468-5965}
+      \field{journaltitle}{JCMS: Journal of Common Market Studies}
+      \field{number}{5}
+      \field{title}{Supranationalism in a Transnational Bureaucracy: The Case of the European Commission}
+      \field{volume}{49}
+      \field{year}{2011}
+      \field{pages}{923\bibrangedash 947}
+      \verb{doi}
+      \verb 10.1111/j.1468-5965.2010.02164.x
+      \endverb
+    \endentry
+    \entry{Supranationalism}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=2cb5c32a4388d8489a24eeae3964542b}{ELLINAS}{E\bibinitperiod}{ANTONIS\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64fcb07b0e8b163f1b4cdcfd5ecef8d1}{SULEIMAN}{S\bibinitperiod}{EZRA\bibnamedelima N.}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=2cb5c32a4388d8489a24eeae3964542b}{ELLINAS}{E\bibinitperiod}{ANTONIS\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64fcb07b0e8b163f1b4cdcfd5ecef8d1}{SULEIMAN}{S\bibinitperiod}{EZRA\bibnamedelima N.}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{49383602ca76cb0c21f0c51f33a76d3b}
+      \strng{fullhash}{981f3f40afdab58735767fcd37c6d249}
+      \field{sortinit}{E}
+      \field{extrayear}{2}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Supranationalism in a Transnational Bureaucracy: The Case of the European Commission}
+      \field{journaltitle}{JCMS: Journal of Common Market Studies}
+      \field{number}{5}
+      \field{title}{Supranationalism in a Transnational Bureaucracy: The Case of the European Commission}
+      \field{volume}{49}
+      \field{year}{2011}
+      \field{pages}{923\bibrangedash 947}
+    \endentry
+    \entry{Elsig:2010:The-World}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=5b8d1210941ef51094cadfab277f58c9}{Elsig}{E\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5b8d1210941ef51094cadfab277f58c9}{Elsig}{E\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5b8d1210941ef51094cadfab277f58c9}
+      \strng{fullhash}{5b8d1210941ef51094cadfab277f58c9}
+      \field{sortinit}{E}
+      \field{labelyear}{2010}
+      \field{labeltitle}{The World Trade Organization at work: Performance in a member-driven milieu}
+      \field{isbn}{1559-7431}
+      \field{journaltitle}{The Review of International Organizations}
+      \field{number}{3}
+      \field{title}{The World Trade Organization at work: Performance in a member-driven milieu}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{pages}{345\bibrangedash 363}
+    \endentry
+    \entry{Esty:2006:Good}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=83980255a8a0f57b9cbbaf03a44088d5}{Esty}{E\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=83980255a8a0f57b9cbbaf03a44088d5}{Esty}{E\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{83980255a8a0f57b9cbbaf03a44088d5}
+      \strng{fullhash}{83980255a8a0f57b9cbbaf03a44088d5}
+      \field{sortinit}{E}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Good governance at the supranational scale: globalizing administrative law}
+      \field{journaltitle}{Yale Law Journal}
+      \field{month}{05}
+      \field{number}{7}
+      \field{title}{Good governance at the supranational scale: globalizing administrative law}
+      \field{volume}{115}
+      \field{year}{2006}
+      \field{pages}{1490\bibrangedash 1562}
+      \verb{url}
+      \verb http://www.jstor.org/stable/20455663
+      \endverb
+    \endentry
+    \entry{Fernandez-Armesto:2003:Ideas}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=925c072f568dbb4481b1fa823568d3f0}{Fernández-Armesto}{F\bibinithyphendelim A\bibinitperiod}{Felipe}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=925c072f568dbb4481b1fa823568d3f0}{Fernández-Armesto}{F\bibinithyphendelim A\bibinitperiod}{Felipe}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {DK Publishing}%
+      }
+      \strng{namehash}{925c072f568dbb4481b1fa823568d3f0}
+      \strng{fullhash}{925c072f568dbb4481b1fa823568d3f0}
+      \field{sortinit}{F}
+      \field{labelyear}{2003}
+      \field{labeltitle}{Ideas That Changed the World}
+      \field{title}{Ideas That Changed the World}
+      \field{year}{2003}
+      \keyw{Trade History}
+    \endentry
+    \entry{Gao:2009:A-strategy}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=c37684335883628a6f0d3823a2d709d9}{Gao}{G\bibinitperiod}{Gerald\bibnamedelima Yong}{G\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=78b7958de7bfc9e8c2f928e3ee042546}{Murray}{M\bibinitperiod}{Janet\bibnamedelima Y}{J\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=95c91c28b58c8e2c322b69206d1a1a95}{Kotabe}{K\bibinitperiod}{Masaaki}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=96cec615bcf3e7838dde52ec293dc386}{Lu}{L\bibinitperiod}{Jiangyong}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c37684335883628a6f0d3823a2d709d9}{Gao}{G\bibinitperiod}{Gerald\bibnamedelima Yong}{G\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=78b7958de7bfc9e8c2f928e3ee042546}{Murray}{M\bibinitperiod}{Janet\bibnamedelima Y}{J\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=95c91c28b58c8e2c322b69206d1a1a95}{Kotabe}{K\bibinitperiod}{Masaaki}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=96cec615bcf3e7838dde52ec293dc386}{Lu}{L\bibinitperiod}{Jiangyong}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a9876f162ac777d1e42e64df17736559}
+      \strng{fullhash}{0618530b895692a84c70ab271c26e087}
+      \field{sortinit}{G}
+      \field{labelyear}{2009}
+      \field{labeltitle}{A ``strategy tripod'' perspective on export behaviors: Evidence from domestic and foreign firms based in an emerging economy}
+      \field{journaltitle}{Journal of International Business Studies}
+      \field{number}{3}
+      \field{title}{A ``strategy tripod'' perspective on export behaviors: Evidence from domestic and foreign firms based in an emerging economy}
+      \field{volume}{41}
+      \field{year}{2009}
+      \field{pages}{377\bibrangedash 396}
+    \endentry
+    \entry{Heckscher:1936:Revisions}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=167c376838f8719a678aa20fbec2a4e4}{Heckscher}{H\bibinitperiod}{Eli\bibnamedelima F.}{E\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=167c376838f8719a678aa20fbec2a4e4}{Heckscher}{H\bibinitperiod}{Eli\bibnamedelima F.}{E\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley on behalf of the Economic History Society}%
+      }
+      \strng{namehash}{167c376838f8719a678aa20fbec2a4e4}
+      \strng{fullhash}{167c376838f8719a678aa20fbec2a4e4}
+      \field{sortinit}{H}
+      \field{labelyear}{1936}
+      \field{labeltitle}{Revisions in Economic History: V. Mercantilism}
+      \field{isbn}{00130117}
+      \field{journaltitle}{The Economic History Review}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{Revisions in Economic History: V. Mercantilism}
+      \field{volume}{7}
+      \field{year}{1936}
+      \field{pages}{44\bibrangedash 54}
+      \verb{doi}
+      \verb 10.2307/2590732
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2590732
+      \endverb
+      \keyw{mercantilism}
+      \warn{\item Invalid format '1936/11/01' of date field 'date' in entry 'Heckscher:1936:Revisions' - ignoring}
+    \endentry
+    \entry{Henahan:2002:Art-Prehistory}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=3e3f27fbde11e9bdfbc530cd07c340c8}{Henahan}{H\bibinitperiod}{Sean}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3e3f27fbde11e9bdfbc530cd07c340c8}{Henahan}{H\bibinitperiod}{Sean}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3e3f27fbde11e9bdfbc530cd07c340c8}
+      \strng{fullhash}{3e3f27fbde11e9bdfbc530cd07c340c8}
+      \field{sortinit}{H}
+      \field{labelyear}{2002}
+      \field{labeltitle}{Art Prehistory}
+      \field{title}{Art Prehistory}
+      \field{year}{2002}
+      \verb{url}
+      \verb http://www.accessexcellence.org/WN/SU/caveart.php
+      \endverb
+      \keyw{Trade History}
+    \endentry
+    \entry{kreppel2001european}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=886bcddf1fda3311e688bebe16ea41e8}{Kreppel}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=886bcddf1fda3311e688bebe16ea41e8}{Kreppel}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{886bcddf1fda3311e688bebe16ea41e8}
+      \strng{fullhash}{886bcddf1fda3311e688bebe16ea41e8}
+      \field{sortinit}{K}
+      \field{labelyear}{2001}
+      \field{labeltitle}{The European Parliament and Supranational Party System: a study in institutional development}
+      \field{title}{The European Parliament and Supranational Party System: a study in institutional development}
+      \field{year}{2001}
+    \endentry
+    \entry{Kroll:2005:History}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7f0c4e69c1541b3692fe69a14b45b000}{Kroll}{K\bibinitperiod}{John\bibnamedelima H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7f0c4e69c1541b3692fe69a14b45b000}{Kroll}{K\bibinitperiod}{John\bibnamedelima H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press on behalf of The Classical Association}%
+      }
+      \strng{namehash}{7f0c4e69c1541b3692fe69a14b45b000}
+      \strng{fullhash}{7f0c4e69c1541b3692fe69a14b45b000}
+      \field{sortinit}{K}
+      \field{labelyear}{2005}
+      \field{labeltitle}{History of Coinage}
+      \field{issn}{0009840X}
+      \field{journaltitle}{The Classical Review}
+      \field{number}{1}
+      \field{series}{New Series}
+      \field{title}{History of Coinage}
+      \field{volume}{55}
+      \field{year}{2005}
+      \field{pages}{pages}
+    \endentry
+    \entry{Lamy:2012:The-Future}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7ca0abf38c47a614fbe13068425738f0}{Lamy}{L\bibinitperiod}{Pascal}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7ca0abf38c47a614fbe13068425738f0}{Lamy}{L\bibinitperiod}{Pascal}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7ca0abf38c47a614fbe13068425738f0}
+      \strng{fullhash}{7ca0abf38c47a614fbe13068425738f0}
+      \field{sortinit}{L}
+      \field{labelyear}{2012}
+      \field{labeltitle}{The Future of Europe in the New Global Economy}
+      \field{title}{The Future of Europe in the New Global Economy}
+      \field{year}{2012}
+    \endentry
+    \entry{Lawton:2009:Multilateralism}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=62038f622c318acc725f69f9dbdbca39}{Lawton}{L\bibinitperiod}{Thomas\bibnamedelima C}{T\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f2f2ba7ac21841c162974bddba09b3a4}{Lindeque}{L\bibinitperiod}{Johan\bibnamedelima P}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ee4152dc5ed32b111e3a98435d22bda7}{McGuire}{M\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=62038f622c318acc725f69f9dbdbca39}{Lawton}{L\bibinitperiod}{Thomas\bibnamedelima C}{T\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f2f2ba7ac21841c162974bddba09b3a4}{Lindeque}{L\bibinitperiod}{Johan\bibnamedelima P}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ee4152dc5ed32b111e3a98435d22bda7}{McGuire}{M\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a420cbfd4f2a98e66e48d619e61d2136}
+      \strng{fullhash}{2674a3474e81791798373bfcc3d3663e}
+      \field{sortinit}{L}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Multilateralism and the Multinational Enterprise}
+      \field{journaltitle}{Business and Politics}
+      \field{number}{2}
+      \field{title}{Multilateralism and the Multinational Enterprise}
+      \field{volume}{11}
+      \field{year}{2009}
+    \endentry
+    \entry{Lewis:1983:The-five}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=82a04f1d3843d4254ee032aa57cc9081}{Lewis}{L\bibinitperiod}{Virginia\bibnamedelima L}{V\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=be62f6d79128b674c4653447b1aa883b}{Churchill}{C\bibinitperiod}{Neil}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=82a04f1d3843d4254ee032aa57cc9081}{Lewis}{L\bibinitperiod}{Virginia\bibnamedelima L}{V\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=be62f6d79128b674c4653447b1aa883b}{Churchill}{C\bibinitperiod}{Neil}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{044f54395749ec23dd9bcf72b9d81cbe}
+      \strng{fullhash}{df33ef327ae6fd3c0c30f18a07233739}
+      \field{sortinit}{L}
+      \field{labelyear}{1983}
+      \field{labeltitle}{The five stages of small business growth}
+      \field{journaltitle}{Harvard business review}
+      \field{number}{3}
+      \field{title}{The five stages of small business growth}
+      \field{volume}{61}
+      \field{year}{1983}
+      \field{pages}{30\bibrangedash 50}
+    \endentry
+    \entry{Mayell:2010:When}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1a80a83f07f79d01f65b1ea9bf307397}{Mayell}{M\bibinitperiod}{Hillary}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1a80a83f07f79d01f65b1ea9bf307397}{Mayell}{M\bibinitperiod}{Hillary}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=bd5422ac30b07090a36168eddc327b25}{News}{N\bibinitperiod}{National\bibnamedelima Geographic}{N\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1a80a83f07f79d01f65b1ea9bf307397}
+      \strng{fullhash}{1a80a83f07f79d01f65b1ea9bf307397}
+      \field{sortinit}{M}
+      \field{labelyear}{2003}
+      \field{labeltitle}{When Did "Modern" Behavior Emerge in Humans?}
+      \field{title}{When Did "Modern" Behavior Emerge in Humans?}
+      \field{year}{2003}
+      \verb{url}
+      \verb http://news.nationalgeographic.com/news/2003/02/0220_030220_humanorigins2_2.html
+      \endverb
+      \keyw{Trade History}
+    \endentry
+    \entry{Mises:2009:Theory}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=55b494416f2b4c63f202015af71c0f28}{Mises}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=55b494416f2b4c63f202015af71c0f28}{Mises}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Ludwig Von Mises Institut}%
+      }
+      \strng{namehash}{55b494416f2b4c63f202015af71c0f28}
+      \strng{fullhash}{55b494416f2b4c63f202015af71c0f28}
+      \field{sortinit}{M}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Theory of Money and Credit}
+      \field{isbn}{9781933550558}
+      \field{title}{Theory of Money and Credit}
+      \field{year}{2009}
+    \endentry
+    \entry{OSullivan:2003:January}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=6e0fbc8884c54068155eb66f35aa890b}{O'Sullivan}{O\bibinitperiod}{Arthur}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ecf8bb3aea7c8b8380140b0fe3eced00}{Sheffrin}{S\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=6e0fbc8884c54068155eb66f35aa890b}{O'Sullivan}{O\bibinitperiod}{Arthur}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ecf8bb3aea7c8b8380140b0fe3eced00}{Sheffrin}{S\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6d946e134f65af3ea15b076283cb3ff9}
+      \strng{fullhash}{f3b5b8fa192795b252e5f69ac9d72860}
+      \field{sortinit}{O}
+      \field{labelyear}{2003}
+      \field{labeltitle}{Economics: Principles in Action}
+      \field{journaltitle}{Economics: Principles in Action}
+      \field{title}{Economics: Principles in Action}
+      \field{year}{2003}
+      \field{pages}{443}
+      \keyw{Trade History}
+    \endentry
+    \entry{Pauwelyn:2005:The-sutherland}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=056fbe6240278fc991ab6a8c141d7d34}{Pauwelyn}{P\bibinitperiod}{Joost}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=056fbe6240278fc991ab6a8c141d7d34}{Pauwelyn}{P\bibinitperiod}{Joost}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{056fbe6240278fc991ab6a8c141d7d34}
+      \strng{fullhash}{056fbe6240278fc991ab6a8c141d7d34}
+      \field{sortinit}{P}
+      \field{labelyear}{2005}
+      \field{labeltitle}{The sutherland report: a missed opportunity for genuine debate on trade, globalization and reforming the wto}
+      \field{journaltitle}{Journal of International Economic Law}
+      \field{series}{8}
+      \field{title}{The sutherland report: a missed opportunity for genuine debate on trade, globalization and reforming the wto}
+      \field{volume}{2}
+      \field{year}{2005}
+      \field{pages}{329\bibrangedash 346}
+      \verb{doi}
+      \verb doi:10.1093/jielaw/jgi023
+      \endverb
+    \endentry
+    \entry{Peng:2002:Towards}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=0ec8dbdbb0f7ecb146d855495114a99d}{Peng}{P\bibinitperiod}{Mike\bibnamedelima W}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0ec8dbdbb0f7ecb146d855495114a99d}{Peng}{P\bibinitperiod}{Mike\bibnamedelima W}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0ec8dbdbb0f7ecb146d855495114a99d}
+      \strng{fullhash}{0ec8dbdbb0f7ecb146d855495114a99d}
+      \field{sortinit}{P}
+      \field{labelyear}{2002}
+      \field{labeltitle}{Towards an institution-based view of business strategy}
+      \field{journaltitle}{Asia Pacific Journal of Management}
+      \field{number}{2-3}
+      \field{title}{Towards an institution-based view of business strategy}
+      \field{volume}{19}
+      \field{year}{2002}
+      \field{pages}{251\bibrangedash 267}
+    \endentry
+    \entry{Peng:2008:UNBUNDLING}{article}{}
+      \name{labelname}{2}{uniquelist=2}{%
+        {{uniquename=0,hash=0ec8dbdbb0f7ecb146d855495114a99d}{Peng}{P\bibinitperiod}{Mike\bibnamedelima W}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3708607e26ad0d53068954f058330659}{Khoury}{K\bibinitperiod}{Theodore\bibnamedelima A}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{uniquelist=2}{%
+        {{uniquename=0,hash=0ec8dbdbb0f7ecb146d855495114a99d}{Peng}{P\bibinitperiod}{Mike\bibnamedelima W}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3708607e26ad0d53068954f058330659}{Khoury}{K\bibinitperiod}{Theodore\bibnamedelima A}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{021b686090e630585c99ddb81d726c4a}
+      \strng{fullhash}{021b686090e630585c99ddb81d726c4a}
+      \field{sortinit}{P}
+      \field{labelyear}{2008}
+      \field{labeltitle}{UNBUNDLING THE INSTITUTION- BASED VIEW OF INTERNATIONAL BUSINESS STRATEGY}
+      \field{journaltitle}{Oxford handbook of international business}
+      \field{title}{UNBUNDLING THE INSTITUTION- BASED VIEW OF INTERNATIONAL BUSINESS STRATEGY}
+      \field{year}{2008}
+      \field{pages}{256\bibrangedash 268}
+    \endentry
+    \entry{PETERSMANN:2011:The-Future}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=09ccfd29e8b703ff54ecb4e9414883ea}{PETERSMANN}{P\bibinitperiod}{Ernst-Ulrich}{E\bibinithyphendelim U\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=09ccfd29e8b703ff54ecb4e9414883ea}{PETERSMANN}{P\bibinitperiod}{Ernst-Ulrich}{E\bibinithyphendelim U\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{09ccfd29e8b703ff54ecb4e9414883ea}
+      \strng{fullhash}{09ccfd29e8b703ff54ecb4e9414883ea}
+      \field{sortinit}{P}
+      \field{labelyear}{2011}
+      \field{labeltitle}{The Future of the WTO: From Authoritarian'Mercantilism'to Multilevel Governance for the Benefit of Citizens?}
+      \field{journaltitle}{Asian Journal of WTO \& International Health Law and Policy}
+      \field{number}{1}
+      \field{title}{The Future of the WTO: From Authoritarian'Mercantilism'to Multilevel Governance for the Benefit of Citizens?}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{45\bibrangedash 80}
+    \endentry
+    \entry{Ryan:2003:Techniques}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=0868d05bb11e6d47965d21b99c10b689}{Ryan}{R\bibinitperiod}{Gery\bibnamedelima W}{G\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=53c7fe056695ac5d469bd549249f84e6}{Bernard}{B\bibinitperiod}{H\bibnamedelima Russell}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0868d05bb11e6d47965d21b99c10b689}{Ryan}{R\bibinitperiod}{Gery\bibnamedelima W}{G\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=53c7fe056695ac5d469bd549249f84e6}{Bernard}{B\bibinitperiod}{H\bibnamedelima Russell}{H\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{b9e2e7adee7a85387a2425dc7ebe8c32}
+      \strng{fullhash}{0e58e00390ffef4e86cb22433fc8bca2}
+      \field{sortinit}{R}
+      \field{labelyear}{2003}
+      \field{labeltitle}{Techniques to identify themes}
+      \field{journaltitle}{Field methods}
+      \field{number}{1}
+      \field{title}{Techniques to identify themes}
+      \field{volume}{15}
+      \field{year}{2003}
+      \field{pages}{85\bibrangedash 109}
+    \endentry
+    \entry{Shaffer:2005:The-Role}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=30177918be14e97d7d323edc94557b5e}{Shaffer}{S\bibinitperiod}{Gregory\bibnamedelima C}{G\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=30177918be14e97d7d323edc94557b5e}{Shaffer}{S\bibinitperiod}{Gregory\bibnamedelima C}{G\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{30177918be14e97d7d323edc94557b5e}
+      \strng{fullhash}{30177918be14e97d7d323edc94557b5e}
+      \field{sortinit}{S}
+      \field{labelyear}{2005}
+      \field{labeltitle}{The Role of the WTO Director-General and Secretariat}
+      \field{journaltitle}{World Trade Review}
+      \field{number}{3}
+      \field{title}{The Role of the WTO Director-General and Secretariat}
+      \field{volume}{4}
+      \field{year}{2005}
+      \field{pages}{429\bibrangedash 438}
+    \endentry
+    \entry{Tallberg:2002:Delegation}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1c2f609d689ff9c910dfa15317409d48}{Tallberg}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1c2f609d689ff9c910dfa15317409d48}{Tallberg}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{1c2f609d689ff9c910dfa15317409d48}
+      \strng{fullhash}{1c2f609d689ff9c910dfa15317409d48}
+      \field{sortinit}{T}
+      \field{labelyear}{2002}
+      \field{labeltitle}{Delegation to supranational institutions: why, how, and with what consequences?}
+      \field{journaltitle}{West European Politics}
+      \field{number}{1}
+      \field{title}{Delegation to supranational institutions: why, how, and with what consequences?}
+      \field{volume}{25}
+      \field{year}{2002}
+      \field{pages}{23\bibrangedash 46}
+    \endentry
+    \entry{Tsebelis:2001:The-Institutional}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=e6177101427efbd78e10f7c7cd7c2a3b}{Tsebelis}{T\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f6d1c90ceaf3ec8de908f2615525ddc5}{Garrett}{G\bibinitperiod}{Geoffrey}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e6177101427efbd78e10f7c7cd7c2a3b}{Tsebelis}{T\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f6d1c90ceaf3ec8de908f2615525ddc5}{Garrett}{G\bibinitperiod}{Geoffrey}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{4cd15cac609457abd1878879b7ea4b9d}
+      \strng{fullhash}{6034419a4c66cc437b4e47b2bf29f65a}
+      \field{sortinit}{T}
+      \field{labelyear}{2001}
+      \field{labeltitle}{The Institutional Foundations of Intergovernmentalism and Supranationalism in the European Union}
+      \field{abstract}{We present a unified model of the politics of the European Union (EU). We focus on the effects of the EU's changing treaty base (from the Rome to Amsterdam Treaties) on the relations among its three supranational institutions-the Commission of the European Communities, the European Court of Justice, and the European Parliament-and between these actors and the intergovernmental Council of Ministers. We analyze these institutional interactions in terms of the interrelationships among the three core functions of the modern state: to legislate and formulate policy (legislative branch), to administer and implement policy (executive branch), and to interpret policy and adjudicate disputes (judicial branch). Our analysis demonstrates that the evolution of the EU' s political system has not always been linear. For example, we explain why the Court's influence was greatest before the passage of the Single European Act and declined in the following decade, and why we expect it to increase again in the aftermath of the Amsterdam Treaty. We also explain why the Commission became a powerful legislative agenda setter after the Single European Act and why its power today stems more from administrative discretion than from influence over legislation.}
+      \field{issn}{00208183}
+      \field{journaltitle}{International Organization}
+      \field{number}{2}
+      \field{title}{The Institutional Foundations of Intergovernmentalism and Supranationalism in the European Union}
+      \field{volume}{55}
+      \field{year}{2001}
+      \field{pages}{357\bibrangedash 390}
+      \verb{url}
+      \verb http://www.jstor.org/stable/3078635
+      \endverb
+    \endentry
+    \entry{von1997history}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c975cc04af28548809bc9631bc81eb28}{Von\bibnamedelima Reden}{V\bibinitperiod\bibinitdelim R\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c975cc04af28548809bc9631bc81eb28}{Von\bibnamedelima Reden}{V\bibinitperiod\bibinitdelim R\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c975cc04af28548809bc9631bc81eb28}
+      \strng{fullhash}{c975cc04af28548809bc9631bc81eb28}
+      \field{sortinit}{V}
+      \field{labelyear}{1997}
+      \field{labeltitle}{History from Coinage}
+      \field{journaltitle}{Classical Review}
+      \field{title}{History from Coinage}
+      \field{year}{1997}
+      \field{pages}{170\bibrangedash 172}
+    \endentry
+    \entry{Watson2005Ideas}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=0406e7a9111803a0b1d50e3e327e97e9}{Watson}{W\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0406e7a9111803a0b1d50e3e327e97e9}{Watson}{W\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {HarperCollins}%
+      }
+      \strng{namehash}{0406e7a9111803a0b1d50e3e327e97e9}
+      \strng{fullhash}{0406e7a9111803a0b1d50e3e327e97e9}
+      \field{sortinit}{W}
+      \field{labelyear}{2005}
+      \field{labeltitle}{Ideas: A History of Thought and Invention, from Fire to Freud}
+      \field{isbn}{9780066210643}
+      \field{title}{Ideas: A History of Thought and Invention, from Fire to Freud}
+      \field{year}{2005}
+      \keyw{Trade History}
+    \endentry
+    \entry{WTO}{other}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1c1ae8324c0650a3de7978682e3f8969}{WTO}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1c1ae8324c0650a3de7978682e3f8969}{WTO}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{1c1ae8324c0650a3de7978682e3f8969}
+      \strng{fullhash}{1c1ae8324c0650a3de7978682e3f8969}
+      \field{sortinit}{W}
+      \field{extrayear}{1}
+      \field{labelyear}{2012}
+      \field{labeltitle}{GATT to WTO}
+      \field{title}{GATT to WTO}
+      \field{year}{2012}
+      \keyw{GATT WTO}
+    \endentry
+    \entry{WTO:2012:What}{other}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1c1ae8324c0650a3de7978682e3f8969}{WTO}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1c1ae8324c0650a3de7978682e3f8969}{WTO}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1c1ae8324c0650a3de7978682e3f8969}{WTO}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{1c1ae8324c0650a3de7978682e3f8969}
+      \strng{fullhash}{1c1ae8324c0650a3de7978682e3f8969}
+      \field{sortinit}{W}
+      \field{extrayear}{2}
+      \field{labelyear}{2012}
+      \field{labeltitle}{What is the World Trade Organization?}
+      \field{title}{What is the World Trade Organization?}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://wto.org/english/thewto_e/whatis_e/tif_e/fact1_e.htm
+      \endverb
+    \endentry
+    \entry{WTO_History}{other}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1c1ae8324c0650a3de7978682e3f8969}{WTO}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1c1ae8324c0650a3de7978682e3f8969}{WTO}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{1c1ae8324c0650a3de7978682e3f8969}
+      \strng{fullhash}{1c1ae8324c0650a3de7978682e3f8969}
+      \field{sortinit}{W}
+      \field{extrayear}{3}
+      \field{labelyear}{2012}
+      \field{labeltitle}{WTO history}
+      \field{title}{WTO history}
+      \field{year}{2012}
+      \keyw{WTO History}
+    \endentry
+    \entry{case_study_crisis}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=581f175abcb4080c6e43147d389f2ffa}{Yin}{Y\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=581f175abcb4080c6e43147d389f2ffa}{Yin}{Y\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{581f175abcb4080c6e43147d389f2ffa}
+      \strng{fullhash}{581f175abcb4080c6e43147d389f2ffa}
+      \field{sortinit}{Y}
+      \field{labelyear}{1981}
+      \field{labeltitle}{The case study crisis: Some answers}
+      \field{abstract}{In hisASQ article entitled" Qualitative data as an attractive nuisance," Matthew Miles (1 979) has written a disarmingly candid rendition of the perils of qualitative analysis. Unfortunately, his candor in admitting the existence of these perils was matched by few suggestions for.}
+      \field{journaltitle}{Administrative science quarterly}
+      \field{number}{1}
+      \field{title}{The case study crisis: Some answers}
+      \field{volume}{26}
+      \field{year}{1981}
+      \field{pages}{58\bibrangedash 65}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

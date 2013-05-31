@@ -1,0 +1,23 @@
+[0] Config.pm:361> INFO - This is Biber 1.5
+[0] Config.pm:364> INFO - Logfile is 'Thesis_WTO.blg'
+[363] biber-darwin:193> INFO - === Wed May  8, 2013, 16:10:16
+[363] Biber.pm:327> INFO - Reading 'Thesis_WTO.bcf'
+[570] Biber.pm:598> INFO - Using all citekeys in bib section 0
+[670] Biber.pm:2976> INFO - Processing section 0
+[700] Biber.pm:3086> INFO - Looking for bibtex format file 'Thesis_Bib.bib' for section 0
+[708] bibtex.pm:889> INFO - Decoding LaTeX character macros into UTF-8
+[738] bibtex.pm:764> INFO - Found BibTeX data source 'Thesis_Bib.bib'
+[767] Utils.pm:167> WARN - Invalid format '1936/11/01' of date field 'date' in entry 'Heckscher:1936:Revisions' - ignoring
+[786] Utils.pm:167> WARN - Name "Barbra Miller, Bernard Wood, Andrew Balansky, Julio Mercader, Melissa Panger" has too many commas: skipping name
+[843] Utils.pm:167> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[844] Utils.pm:167> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[844] Biber.pm:3086> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[850] bibtex.pm:889> INFO - Decoding LaTeX character macros into UTF-8
+[850] bibtex.pm:764> INFO - Found BibTeX data source 'Bibliography.bib'
+[902] Utils.pm:167> WARN - The field 'author' in entry 'Barbra-Miller:2006:Anthropology' cannot be null, deleting it
+[1417] Biber.pm:2860> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1417] Biber.pm:2866> INFO - Sorting 'entry' list 'nyt' keys
+[1417] Biber.pm:2870> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[2037] bbl.pm:462> INFO - Writing 'Thesis_WTO.bbl' with encoding 'UTF-8'
+[2040] bbl.pm:535> INFO - Output to Thesis_WTO.bbl
+[2041] Biber.pm:107> INFO - WARNINGS: 5

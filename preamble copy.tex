@@ -1,0 +1,139 @@
+\usepackage[utf8]{inputenc} %f ̧r Windows %direct gebruik van accenten
+\usepackage[T1]{fontenc}
+%\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage[small,normal,bf,up]{caption}
+\usepackage{eurosym,supertabular,multirow,tabularx} %,bigstrut,
+\usepackage{geometry}
+%\usepackage{layout}
+\usepackage[toc,page,title]{appendix}
+%\usepackage{float,wrapfig}
+%\usepackage{rcs} 
+\usepackage[acronym,toc]{glossaries}  
+\glsdisablehyper%
+\makeglossaries%
+\doublespacing%
+\usepackage[babel]{csquotes}
+%\usepackage[backend=biber,style=authoryear-luh-ipw,isbn=false,url=false]{biblatex} %,style=historian ,citestyle=apa
+\usepackage[backend=biber,citestyle=authoryear-comp,bibstyle=authortitle,sorting=nyt,dashed=false,maxcitenames=1,isbn=false,url=false]{biblatex}
+
+%--------------Layout van A4 document-----------------
+\geometry{
+  includeheadfoot,
+  margin=2.5cm,
+  hdivide={ ,19cm, }  
+}
+
+
+%--------Biblatex-------------------------------------
+
+\DeclareNameAlias{sortname}{first-last}
+
+\DeclareCiteCommand{\cite}[\mkbibbrackets]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{cite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\cite}[\mkbibbrackets]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{citeyear}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+
+\newcounter{mymaxcitenames}
+\AtBeginDocument{%
+  \setcounter{mymaxcitenames}{\value{maxnames}}%
+}
+
+\renewbibmacro*{begentry}{%
+  \printtext[brackets]{%
+    \begingroup%
+    \defcounter{maxnames}{\value{mymaxcitenames}}%
+    \printnames{labelname}%
+    \setunit{\nameyeardelim}%
+    \usebibmacro{cite:labelyear+extrayear}%
+    \endgroup%
+    }%
+  \quad% or \addspace
+}
+
+%--------END Biblatex-------------------------------------
+
+
+%------------------ FONT ----------------------------------------
+
+% ALTERNATIVE
+
+%\usepackage[urw-garamond]{mathdesign}
+%\usepackage[math]{iwona}
+%\usepackage[default]{lato}
+%\usepackage{venturis2}
+\usepackage[sf]{quattrocento}
+%\usepackage{libertine}
+%\usepackage[T1]{fontenc}
+
+%------------------ END FONT ------------------
+
+\linespread{1.5} %\setlength{\parskip}{\baselineskip}
+\setlength{\headheight}{43,3pt}
+\setlength{\voffset}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}     % clear header & footer
+\fancyhead[C]{\small\sf\nouppercase{\leftmark}}
+\fancyhead[L]{\includegraphics[width=.19\textwidth]{ThesisFigs/uva_logo}} %links tu logo
+%\fancyhead[R]{thepage} %rechts Abbott logo \includegraphics[width=.2\textwidth]{ThesisFigs/abbott}
+%\fancyfoot[L]{\thepage}
+\fancyfoot[R]{\thepage}
+
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}}
+
+\renewcommand{\captionfont}{\small\textit}
+
+\renewcommand{\headrule}{{\color{red}%
+\hrule width\headwidth%
+ height\headrulewidth \vskip-\headrulewidth}
+ }
+
+%\setlength{\footrulewidth}{\headrulewidth}
+
+\renewcommand{\footrule}{{\color{blue}% 
+  \vskip-\footruleskip\vskip-\footrulewidth%
+\hrule width\headwidth height\footrulewidth\vskip\footruleskip}}
+
+
+\renewcommand{\chaptermark}[1]{\markboth{\textbf{\thechapter\ #1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+
+\fancyheadoffset{0cm} % zorgt er voor dat de head en foot lijnen even breed zijn als de textbreedte
+
+
+%--------title Opmaak------------------------
+\input{titlepage}
+
+%----------einde titel opmaak-------------------
+
+%\floatplacement{table}{htbp} \floatplacement{figure}{htbp}
+%\floatstyle{plaintop} \restylefloat{table}
+
+%\renewcommand{\vec}{\boldsymbol}
+%\newcommand{\unit}[1]{\ \mathrm{#1}}
+%\newcommand{\srcinput}[2]{\noindent\framebox[\columnwidth]{\sc #2}{\scriptsize \verbatiminput{#1}}}
+\setlength{\columnseprule}{\headrulewidth}
+
+\setcounter{tocdepth}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Prints your review date and 'Draft Version' (From Josullvn, CS, CMU)
+\newcommand{\reviewtimetoday}[2]{\special{!userdict begin
+/bop-hook{gsave 20 710 translate 45 rotate 0.8 setgray /Times-Roman
+findfont 12 scalefont setfont 0 0   moveto (#1) show 0 -12 moveto
+(#2) show grestore}def end}} \reviewtimetoday{\today}{Draft Version}
+% You can turn on or off this option.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
