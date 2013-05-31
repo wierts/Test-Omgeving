@@ -2,6 +2,7 @@
 *.pdf
 *.glo
 *.idx
+*.xml
 *.log
 *.toc
 *.ist
