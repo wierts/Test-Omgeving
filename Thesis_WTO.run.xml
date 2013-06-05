@@ -79,7 +79,7 @@
       <file>Thesis_WTO.bcf</file>
     </requires>
     <requires type="editable">
-      <file>Thesis_Bib.bib</file>
+      <file>Bibliography_papers.bib</file>
       <file>Bibliography.bib</file>
     </requires>
   </external>
