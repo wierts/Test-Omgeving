@@ -261,12 +261,21 @@
     </object>
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">1</attribute>
+<<<<<<< HEAD
         <attribute name="visiblerect" type="string">{{0, 445}, {709, 626}}</attribute>
         <attribute name="lasteditdate" type="date">392224962.10885900259017944336</attribute>
         <attribute name="istext" type="bool">1</attribute>
         <attribute name="fileloaddate" type="date">392224963.73923701047897338867</attribute>
         <attribute name="extension" type="string">tex</attribute>
         <attribute name="cursor" type="string">{3089, 0}</attribute>
+=======
+        <attribute name="visiblerect" type="string">{{0, 401}, {726, 568}}</attribute>
+        <attribute name="lasteditdate" type="date">392138515.67461299896240234375</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">392197231.18216502666473388672</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{2605, 0}</attribute>
+>>>>>>> afdee63d36fad7fe1c9676d4f59bbf79b6b6bd62
         <attribute name="sortindex" type="int32">1</attribute>
         <attribute name="name" type="string">Literature_Review.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
