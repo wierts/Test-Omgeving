@@ -80,8 +80,7 @@
     </requires>
     <requires type="editable">
       <file>Bibliography_papers.bib</file>
-      <file>Bibliography.bib</file>
-      <file>thesis_bib.bib</file>
+      <file>Thesis_bib.bib</file>
     </requires>
   </external>
 </requests>

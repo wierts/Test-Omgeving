@@ -6,9 +6,9 @@
 
 %---------Bibliography--------------------------------
 
-\bibliography{Bibliography_papers.bib,Bibliography.bib,thesis_bib}  %,Bibliography.bib
+\bibliography{Bibliography_papers, Thesis_bib}  %,Bibliography.bib Bibs\Bibliography_papers.bib,
 
-
+ \graphicspath{{./ThesisFigs/}}
 
 
 %-------------Titel informatie----------------------
@@ -54,20 +54,20 @@
 
 
 \setcounter{tocdepth}{1}%
-\begin{appendices}
+%\begin{appendices}
 %\include{appendices/latex/}
 %\include{appendices/latex/}
-\end{appendices}
+%\end{appendices}
 
 
 \nocite{*} 
 \addcontentsline{toc}{chapter}{Bibliography}
 %\bibliography{Thesis_Bib}
-\printbibliography%
+\printbibliography %
 %\bibliographystyle{apalike} %apalike %h-physrev3 % ducobst
 %\input{Thesis_Bib.bib}
-
-\printglossaries%
+%
+\printglossaries %
 
 \end{document}
 
