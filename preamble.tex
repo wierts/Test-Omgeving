@@ -1,6 +1,5 @@
 \usepackage[utf8]{inputenc} %f ̧r Windows %direct gebruik van accenten
 \usepackage[T1]{fontenc}
-%\usepackage[french]{babel}
 \usepackage{lmodern}
 \usepackage[small,normal,bf,up]{caption}
 \usepackage{eurosym,supertabular,multirow,tabularx} %,bigstrut,
@@ -70,17 +69,13 @@
 \hrule width\headwidth%
  height\headrulewidth \vskip-\headrulewidth}
  }
-
 %\setlength{\footrulewidth}{\headrulewidth}
-
 \renewcommand{\footrule}{{\color{blue}% 
   \vskip-\footruleskip\vskip-\footrulewidth%
-\hrule width\headwidth height\footrulewidth\vskip\footruleskip}}
-
-
+\hrule width\headwidth height\footrulewidth\vskip\footruleskip}
+}
 \renewcommand{\chaptermark}[1]{\markboth{\textbf{\thechapter\ #1}}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
-
 \fancyheadoffset{0cm} % zorgt er voor dat de head en foot lijnen even breed zijn als de textbreedte
 
 
@@ -88,22 +83,11 @@
 \input{titlepage}
 
 %----------einde titel opmaak-------------------
-
 %\floatplacement{table}{htbp} \floatplacement{figure}{htbp}
 %\floatstyle{plaintop} \restylefloat{table}
-
 %\renewcommand{\vec}{\boldsymbol}
 %\newcommand{\unit}[1]{\ \mathrm{#1}}
 %\newcommand{\srcinput}[2]{\noindent\framebox[\columnwidth]{\sc #2}{\scriptsize \verbatiminput{#1}}}
 \setlength{\columnseprule}{\headrulewidth}
-
 \setcounter{tocdepth}{2}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  Prints your review date and 'Draft Version' (From Josullvn, CS, CMU)
-\newcommand{\reviewtimetoday}[2]{\special{!userdict begin
-/bop-hook{gsave 20 710 translate 45 rotate 0.8 setgray /Times-Roman
-findfont 12 scalefont setfont 0 0   moveto (#1) show 0 -12 moveto
-(#2) show grestore}def end}} \reviewtimetoday{\today}{Draft Version}
-% You can turn on or off this option.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
