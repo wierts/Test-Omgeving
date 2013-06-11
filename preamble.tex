@@ -8,15 +8,15 @@
 %\usepackage{layout}
 \usepackage[toc,page,title]{appendix}
 %\usepackage{float,wrapfig}
-\usepackage{cprotect} %gebruikt om verbatim in footnotes te zetten
+%\usepackage{cprotect} %gebruikt om verbatim in footnotes te zetten
 \usepackage{enumerate}
 \usepackage[acronym,toc]{glossaries}  
 \glsdisablehyper%
 \makeglossaries%
 \doublespacing%
-\usepackage[babel]{csquotes}
-%\usepackage[backend=biber,style=authoryear-luh-ipw,isbn=false,url=false]{biblatex} %,style=historian ,citestyle=apa
-\usepackage[backend=biber,citestyle=authoryear-comp,bibstyle=authortitle,sorting=nyt,dashed=false,maxcitenames=1,isbn=false,url=false]{biblatex}
+\usepackage[babel]{csquotes}%
+
+
 
 %--------------Layout van A4 document-----------------
 \geometry{
@@ -25,44 +25,13 @@
   hdivide={ ,19cm, }  
 }
 
+%------------Biblatex Optie 1---------------------------
 
-%--------Biblatex-------------------------------------
+%\input{BiblatexOptie1}
 
-\DeclareNameAlias{sortname}{first-last}
+%------------Biblatex Optie 2---------------------------
 
-\DeclareCiteCommand{\cite}[\mkbibbrackets]
-  {\usebibmacro{prenote}}
-  {\usebibmacro{citeindex}%
-   \usebibmacro{cite}}
-  {\multicitedelim}
-  {\usebibmacro{postnote}}
-
-\DeclareCiteCommand*{\cite}[\mkbibbrackets]
-  {\usebibmacro{prenote}}
-  {\usebibmacro{citeindex}%
-   \usebibmacro{citeyear}}
-  {\multicitedelim}
-  {\usebibmacro{postnote}}
-
-
-\newcounter{mymaxcitenames}
-\AtBeginDocument{%
-  \setcounter{mymaxcitenames}{\value{maxnames}}%
-}
-
-\renewbibmacro*{begentry}{%
-  \printtext[brackets]{%
-    \begingroup%
-    \defcounter{maxnames}{\value{mymaxcitenames}}%
-    \printnames{labelname}%
-    \setunit{\nameyeardelim}%
-    \usebibmacro{cite:labelyear+extrayear}%
-    \endgroup%
-    }%
-  \quad% or \addspace
-}
-
-%--------END Biblatex-------------------------------------
+\input{BiblatexOptie2}
 
 
 %------------------ FONT ----------------------------------------

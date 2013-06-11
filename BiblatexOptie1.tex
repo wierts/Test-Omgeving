@@ -1,0 +1,55 @@
+%\usepackage[backend=biber,style=authoryear-luh-ipw,isbn=false,url=false]{biblatex} %,style=historian ,citestyle=apa
+%\usepackage[
+%backend=biber,
+%citestyle=authoryear-comp,
+%bibstyle=authortitle,
+%sorting=nyt,
+%bibencoding=utf8,
+%dashed=false,
+%maxcitenames=1,
+%isbn=false,
+%url=false,
+%babel=hyphen,
+%hyperref=true,
+%doi=false]
+%{biblatex}
+
+
+%--------Biblatex-------------------------------------
+
+\DeclareNameAlias{sortname}{first-last}
+
+\DeclareCiteCommand{\cite}[\mkbibbrackets]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{cite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\cite}[\mkbibbrackets]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{citeyear}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+
+\newcounter{mymaxcitenames}
+\AtBeginDocument{%
+  \setcounter{mymaxcitenames}{\value{maxnames}}%
+}
+
+\renewbibmacro*{begentry}{%
+  \printtext[brackets]{%
+    \begingroup%
+    \defcounter{maxnames}{\value{mymaxcitenames}}%
+    \printnames{labelname}%
+    \setunit{\nameyeardelim}%
+    \usebibmacro{cite:labelyear+extrayear}%
+    \endgroup%
+    }%
+  \quad% or \addspace
+}
+
+%--------END Biblatex-------------------------------------
+
