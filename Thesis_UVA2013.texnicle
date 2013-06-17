@@ -261,18 +261,8 @@
     </object>
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">0</attribute>
-<<<<<<< HEAD
         <attribute name="visiblerect" type="string">{{0, 163}, {803, 414}}</attribute>
         <attribute name="lasteditdate" type="date">393160419.28528302907943725586</attribute>
-=======
-<<<<<<< HEAD
-        <attribute name="visiblerect" type="string">{{0, 0}, {770, 615}}</attribute>
-        <attribute name="lasteditdate" type="date">392898765.02280497550964355469</attribute>
-=======
-        <attribute name="visiblerect" type="string">{{0, 136}, {803, 414}}</attribute>
-        <attribute name="lasteditdate" type="date">393160133.78438198566436767578</attribute>
->>>>>>> 0270990b86afd8c33aea32553595d611e6d080e4
->>>>>>> cd0838fc16e809c1b339e259764a71a679e4fef2
         <attribute name="istext" type="bool">1</attribute>
         <attribute name="fileloaddate" type="date">393160419.31296098232269287109</attribute>
         <attribute name="extension" type="string">tex</attribute>
