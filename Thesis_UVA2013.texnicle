@@ -267,6 +267,12 @@
         <attribute name="fileloaddate" type="date">393160324.04397898912429809570</attribute>
         <attribute name="extension" type="string">tex</attribute>
         <attribute name="cursor" type="string">{794, 0}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 163}, {803, 414}}</attribute>
+        <attribute name="lasteditdate" type="date">393160419.28528302907943725586</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">393160419.31296098232269287109</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{7931, 0}</attribute>
         <attribute name="sortindex" type="int32">1</attribute>
         <attribute name="name" type="string">Literature_Review.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
