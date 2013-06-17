@@ -261,7 +261,7 @@
     </object>
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">0</attribute>
-        <attribute name="visiblerect" type="string">{{0, 770}, {770, 615}}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {770, 615}}</attribute>
         <attribute name="lasteditdate" type="date">392898765.02280497550964355469</attribute>
         <attribute name="istext" type="bool">1</attribute>
         <attribute name="fileloaddate" type="date">392899053.43087899684906005859</attribute>
