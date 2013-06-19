@@ -93,8 +93,8 @@
         <attribute name="pdfviewscrollrect" type="string">{{0, 0}, {0, 0}}</attribute>
         <attribute name="selectedcontrolstab" type="int16">0</attribute>
         <attribute name="maxoutlinedepth" type="int16">7</attribute>
-        <attribute name="editorwidth" type="float">839</attribute>
-        <attribute name="controlswidth" type="float">176</attribute>
+        <attribute name="editorwidth" type="float">822</attribute>
+        <attribute name="controlswidth" type="float">172</attribute>
         <relationship name="project" type="1/1" destination="PROJECT" idrefs="z103"></relationship>
     </object>
     <object type="TEXFILE" id="z105">
@@ -261,12 +261,12 @@
     </object>
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">0</attribute>
-        <attribute name="visiblerect" type="string">{{0, 2080}, {801, 624}}</attribute>
-        <attribute name="lasteditdate" type="date">393345303.55479598045349121094</attribute>
+        <attribute name="visiblerect" type="string">{{0, 2155}, {784, 649}}</attribute>
+        <attribute name="lasteditdate" type="date">393352754.69436401128768920898</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">393350635.47188001871109008789</attribute>
+        <attribute name="fileloaddate" type="date">393354786.08243602514266967773</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{9306, 0}</attribute>
+        <attribute name="cursor" type="string">{9160, 0}</attribute>
         <attribute name="visiblerect" type="string">{{0, 163}, {803, 414}}</attribute>
         <attribute name="lasteditdate" type="date">393160419.28528302907943725586</attribute>
         <attribute name="istext" type="bool">1</attribute>
