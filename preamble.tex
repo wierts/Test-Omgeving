@@ -6,8 +6,9 @@
 \usepackage{geometry}
 \usepackage{url} % om urls goed weer te geven in voetnoten
 \usepackage[toc,page,title]{appendix}
-%\usepackage[multiple,hyperlink]{footmisc}
+\usepackage[multiple,flushmargin]{footmisc}
 %\usepackage{cprotect} %gebruikt om verbatim in footnotes te zetten
+\usepackage{hanging}% provides the \hangpara command
 \usepackage{enumerate}
 \usepackage[acronym,toc]{glossaries}  
 \glsdisablehyper%
@@ -23,6 +24,13 @@
   margin=2.5cm,
   hdivide={ ,19cm, }  
 }
+
+%------------------Footnotes--------------------------
+\renewcommand{\footnotemargin}{1em}
+% changes the above and sets the footnote mark just right of the left margin border.
+
+\newcommand{\fn}[1]{\footnote{\hangpara{3em}{1} #1}}
+% makes a new footnote command \fn{} with a hanging indent of 3em (hanging indent starts after the first line)
 
 %------------Biblatex Optie 1---------------------------
 
