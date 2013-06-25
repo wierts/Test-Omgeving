@@ -1,4 +1,5 @@
 \usepackage[utf8]{inputenc} %f ̧r Windows %direct gebruik van accenten
+\input{ix-utf8enc.dfu}% dit is om u ̃ te laden
 \usepackage[T1]{fontenc}
 \usepackage[small,normal,bf,up]{caption}
 \usepackage{eurosym,supertabular,multirow,tabularx} %,bigstrut,
@@ -13,8 +14,8 @@
 \glsdisablehyper%
 \makeglossaries%
 \doublespacing%
-\usepackage[babel]{csquotes}%
 
+%\DeclareUnicodeCharacter{0169}{\~u} % make the character known
 
 
 %--------------Layout van A4 document-----------------
@@ -38,9 +39,11 @@
 %------------Biblatex Optie 2---------------------------
 
 \input{BiblatexOptie2}
-
-
+%----------------------------CSQuotes na Biblatex
+\usepackage[babel]{csquotes}%
+\usepackage[english]{babel}%
 %------------------ FONT ----------------------------------------
+
 
 % ALTERNATIVE
 %\usepackage{lmodern}
