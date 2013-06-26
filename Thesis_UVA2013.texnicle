@@ -262,11 +262,11 @@
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">0</attribute>
         <attribute name="visiblerect" type="string">{{0, 415}, {796, 460}}</attribute>
-        <attribute name="lasteditdate" type="date">393890045.01819497346878051758</attribute>
+        <attribute name="lasteditdate" type="date">393890051.76448702812194824219</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">393890046.81250900030136108398</attribute>
+        <attribute name="fileloaddate" type="date">393932563.20854198932647705078</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{2674, 0}</attribute>
+        <attribute name="cursor" type="string">{2675, 0}</attribute>
         <attribute name="visiblerect" type="string">{{0, 163}, {803, 414}}</attribute>
         <attribute name="lasteditdate" type="date">393160419.28528302907943725586</attribute>
         <attribute name="istext" type="bool">1</attribute>
