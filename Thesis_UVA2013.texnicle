@@ -84,13 +84,13 @@
         <attribute name="name" type="string">Thesis_UVA2013</attribute>
         <attribute name="folder" type="string">/Users/duco/Documents/Thesis</attribute>
         <relationship name="mainfile" type="1/1" destination="FILE" idrefs="z105"></relationship>
-        <relationship name="selected" type="1/1" destination="FILE" idrefs="z105"></relationship>
+        <relationship name="selected" type="1/1" destination="FILE" idrefs="z117"></relationship>
         <relationship name="settings" type="1/1" destination="SETTINGS" idrefs="z102"></relationship>
         <relationship name="uisettings" type="1/1" destination="UISETTINGS" idrefs="z104"></relationship>
         <relationship name="items" type="0/0" destination="PROJECTITEM" idrefs="z112 z120 z127 z126 z113 z125 z121 z117 z118"></relationship>
     </object>
     <object type="UISETTINGS" id="z104">
-        <attribute name="pdfviewscrollrect" type="string">{{103, 2540}, {412, 797}}</attribute>
+        <attribute name="pdfviewscrollrect" type="string">{{66, 7722}, {412, 797}}</attribute>
         <attribute name="selectedcontrolstab" type="int16">0</attribute>
         <attribute name="maxoutlinedepth" type="int16">7</attribute>
         <attribute name="editorwidth" type="float">846</attribute>
@@ -262,11 +262,11 @@
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">0</attribute>
         <attribute name="visiblerect" type="string">{{0, 2878}, {808, 482}}</attribute>
-        <attribute name="lasteditdate" type="date">394012393.29044002294540405273</attribute>
+        <attribute name="lasteditdate" type="date">394048586.96666401624679565430</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394048100.57355302572250366211</attribute>
+        <attribute name="fileloaddate" type="date">394048588.80089902877807617188</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{1321, 0}</attribute>
+        <attribute name="cursor" type="string">{10892, 0}</attribute>
         <attribute name="visiblerect" type="string">{{0, 163}, {803, 414}}</attribute>
         <attribute name="lasteditdate" type="date">393160419.28528302907943725586</attribute>
         <attribute name="istext" type="bool">1</attribute>
@@ -310,9 +310,9 @@
     <object type="FILE" id="z120">
         <attribute name="wasopen" type="bool">7</attribute>
         <attribute name="visiblerect" type="string">{{0, 12024}, {813, 457}}</attribute>
-        <attribute name="lasteditdate" type="date">394012266.34400498867034912109</attribute>
+        <attribute name="lasteditdate" type="date">394048647.44715297222137451172</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394048100.60259401798248291016</attribute>
+        <attribute name="fileloaddate" type="date">394048647.44751101732254028320</attribute>
         <attribute name="extension" type="string">bib</attribute>
         <attribute name="cursor" type="string">{38154, 2}</attribute>
         <attribute name="sortindex" type="int32">11</attribute>
@@ -435,7 +435,8 @@
         <relationship name="parentfile" type="1/1" destination="FILE" idrefs="z117"></relationship>
     </object>
     <object type="BOOKMARK" id="z132">
-        <attribute name="text" type="string"></attribute>
+        <attribute name="text" type="string">
+</attribute>
         <attribute name="linenumber" type="int64">94</attribute>
         <relationship name="parentfile" type="1/1" destination="FILE" idrefs="z117"></relationship>
     </object>
