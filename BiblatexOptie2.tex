@@ -14,7 +14,7 @@
         isbn=false,
         eprint=false,
         %backref=true,
-            }   {biblatex}
+            }{biblatex}
 \usepackage{biblatex}
 \DeclareNameAlias{sortname}{last-first} 
 
@@ -141,3 +141,6 @@
 backrefpage={cited on p\adddot},
 backrefpages={cited on pp\adddot}
 }
+% makes volume of journal bold and adds colon
+\DeclareFieldFormat[article]{volume}{\textbf{#1}\addcolon\space}
+
