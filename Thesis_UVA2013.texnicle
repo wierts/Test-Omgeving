@@ -261,12 +261,12 @@
     </object>
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">0</attribute>
-        <attribute name="visiblerect" type="string">{{0, 2967}, {808, 393}}</attribute>
-        <attribute name="lasteditdate" type="date">394012393.29044002294540405273</attribute>
+        <attribute name="visiblerect" type="string">{{0, 2651}, {808, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394014308.77974498271942138672</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394012395.00824201107025146484</attribute>
+        <attribute name="fileloaddate" type="date">394127016.30488997697830200195</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{11270, 0}</attribute>
+        <attribute name="cursor" type="string">{10539, 0}</attribute>
         <attribute name="visiblerect" type="string">{{0, 163}, {803, 414}}</attribute>
         <attribute name="lasteditdate" type="date">393160419.28528302907943725586</attribute>
         <attribute name="istext" type="bool">1</attribute>
@@ -398,12 +398,12 @@
     </object>
     <object type="TEXFILE" id="z127">
         <attribute name="wasopen" type="bool">5</attribute>
-        <attribute name="visiblerect" type="string">{{0, 0}, {830, 457}}</attribute>
-        <attribute name="lasteditdate" type="date">393505227.54229098558425903320</attribute>
+        <attribute name="visiblerect" type="string">{{0, 372}, {814, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394014160.58552098274230957031</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394011697.81295502185821533203</attribute>
+        <attribute name="fileloaddate" type="date">394127016.29903602600097656250</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{357, 0}</attribute>
+        <attribute name="cursor" type="string">{1707, 0}</attribute>
         <attribute name="sortindex" type="int32">0</attribute>
         <attribute name="name" type="string">untitled14.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
