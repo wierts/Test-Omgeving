@@ -5,29 +5,21 @@
 % STYLES
 \tikzset{
     ellips/.style={ellipse, minimum width=100pt,
-    align=center,node distance=3cm,fill=black!10,inner sep=5pt,text width=2.5cm,minimum height=2.0cm,>=stealth'}
+    align=center,node distance=3cm,inner sep=5pt,text width=2.5cm,minimum height=2.0cm,>=stealth'}%fill=black!10
 }
-%\tikzstyle{every node}=[]
-
-
-% Draw forces
 
 \node [ellips](Choices) {Strategic Choices};
 \node [above=2cm of Choices](dummy) {};
 \node [ellips, force, left=1.5cm of dummy] (Institutions) {Institutions};
-\node [ellips, force, right=1.5cm of dummy] (Organisations) {Organisations};
-%\node [force, below of=rivalry] (bottom) {Related and Supporting industries};
+\node [ellips, force, right=1.5cm of dummy,drop shadow,draw] (Organisations) {Organisations};
 
-
-%%%%%%%%%%%%%%%%
-
-% Draw the links between forces
+% Draw the links between 
 \path[<->,thick] 
- (Choices) edge node[anchor=center, text width=3.5cm, left, midway] {Industry conditions and firm-specific resources}  (Institutions) 
- (Choices) edge node[anchor=center, text width=3.5cm, right, midway] {Formal and informal constraints} (Organisations)
+ (Choices) edge node[anchor=center, text width=3.5cm, below left, midway] {Industry conditions and firm-specific resources}  (Institutions) 
+ (Choices) edge node[anchor=center, text width=3.5cm, below right, midway] {Formal and informal constraints} (Organisations)
  (Institutions) edge  node [midway, below] {interaction} node[midway, above] {Dynamic} (Organisations);
 
 \end{tikzpicture} 
-
-\label{fig:Peng2000} \caption{Diamond from~\cite{Porter:1980}}%
+\label{fig:Peng2000} 
+\caption{Institutions, organisations, and strategic choices. Source:~\cite{Peng:2000}}%
 \end{figure}
