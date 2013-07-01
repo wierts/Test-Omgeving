@@ -1,21 +1,26 @@
 \begin{figure}[ht!]
 \centering
-\begin{tikzpicture}
-[
-node distance = 1cm, auto,font=\footnotesize,
+\begin{tikzpicture}[scale=0.8, transform shape]
 % STYLES
-every node/.style={node distance=3cm},
-% The comment style is used to describe the characteristics of each force
-comment/.style={rectangle, inner sep= 5pt, text width=4cm, node distance=0.25cm, },%font=\scriptsize\sffamily
-% The force style is used to draw the forces' name
-force/.style={rectangle,rounded corners, draw, fill=black!10, inner sep=5pt, text width=4cm, text badly centered, minimum height=1.3cm}
+\tikzstyle{every node}=[
+node distance = 1cm, 
+auto,
+rectangle,
+rounded corners, 
+draw, 
+fill=black!10,
+node distance=3cm,
+inner sep=5pt, 
+text width=4cm, 
+text badly centered, 
+minimum height=1.3cm
 ] 
 % Draw forces
-\node [force] (rivalry) {Rivalry among existing competitors};
-\node [force, above of=rivalry] (substitutes) {Threat of substitutes};
-\node [force, left=1cm of rivalry] (suppliers) {Bargaining power of suppliers};
-\node [force, right=1cm of rivalry] (users) {Bargaining power of users};
-\node [force, below of=rivalry] (entrants) {Threat of new entrants};
+\node (rivalry) {Rivalry among existing competitors};
+\node [above of=rivalry] (substitutes) {Threat of substitutes};
+\node [left=1cm of rivalry] (suppliers) {Bargaining power of suppliers};
+\node [right=1cm of rivalry] (users) {Bargaining power of users};
+\node [below of=rivalry] (entrants) {Threat of new entrants};
 % Draw the links between forces
 \path[->,thick] 
 (substitutes) edge (rivalry)
