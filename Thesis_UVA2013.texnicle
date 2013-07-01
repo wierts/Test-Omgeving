@@ -72,7 +72,7 @@
     <object type="SETTINGS" id="z102">
         <attribute name="showstatusbar" type="bool">1</attribute>
         <attribute name="openconsole" type="bool">0</attribute>
-        <attribute name="ncompile" type="int16">4</attribute>
+        <attribute name="ncompile" type="int16">3</attribute>
         <attribute name="language" type="string">Automatic By Language</attribute>
         <attribute name="enginename" type="string">pdflatex_Biber</attribute>
         <attribute name="dops2pdf" type="bool">1</attribute>
@@ -84,7 +84,7 @@
         <attribute name="name" type="string">Thesis_UVA2013</attribute>
         <attribute name="folder" type="string">/Users/duco/Documents/Thesis</attribute>
         <relationship name="mainfile" type="1/1" destination="FILE" idrefs="z105"></relationship>
-        <relationship name="selected" type="1/1" destination="FILE" idrefs="z134"></relationship>
+        <relationship name="selected" type="1/1" destination="FILE" idrefs="z139"></relationship>
         <relationship name="settings" type="1/1" destination="SETTINGS" idrefs="z102"></relationship>
         <relationship name="uisettings" type="1/1" destination="UISETTINGS" idrefs="z104"></relationship>
         <relationship name="items" type="0/0" destination="PROJECTITEM" idrefs="z126 z134 z135 z121 z137 z117 z141 z139 z127 z118 z113 z138 z136 z120 z112 z125"></relationship>
@@ -93,18 +93,18 @@
         <attribute name="pdfviewscrollrect" type="string">{{0, 0}, {0, 0}}</attribute>
         <attribute name="selectedcontrolstab" type="int16">0</attribute>
         <attribute name="maxoutlinedepth" type="int16">7</attribute>
-        <attribute name="editorwidth" type="float">890</attribute>
+        <attribute name="editorwidth" type="float">619</attribute>
         <attribute name="controlswidth" type="float">220</attribute>
         <relationship name="project" type="1/1" destination="PROJECT" idrefs="z103"></relationship>
     </object>
     <object type="TEXFILE" id="z105">
         <attribute name="wasopen" type="bool">4</attribute>
-        <attribute name="visiblerect" type="string">{{0, 679}, {858, 393}}</attribute>
-        <attribute name="lasteditdate" type="date">394048269.84390497207641601562</attribute>
+        <attribute name="visiblerect" type="string">{{1, 679}, {641, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394374001.34469902515411376953</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394275705.19539701938629150391</attribute>
+        <attribute name="fileloaddate" type="date">394374020.24769401550292968750</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{394, 0}</attribute>
+        <attribute name="cursor" type="string">{1947, 0}</attribute>
         <attribute name="sortindex" type="int32">8</attribute>
         <attribute name="name" type="string">Thesis_UvA_Duco_Wiertsema.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
@@ -261,12 +261,12 @@
     </object>
     <object type="TEXFILE" id="z117">
         <attribute name="wasopen" type="bool">0</attribute>
-        <attribute name="visiblerect" type="string">{{0, 737}, {858, 393}}</attribute>
-        <attribute name="lasteditdate" type="date">394358968.84840202331542968750</attribute>
+        <attribute name="visiblerect" type="string">{{0, 332}, {641, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394374170.83945900201797485352</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394358970.72501397132873535156</attribute>
+        <attribute name="fileloaddate" type="date">394374172.71760302782058715820</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{4341, 0}</attribute>
+        <attribute name="cursor" type="string">{2232, 0}</attribute>
         <attribute name="visiblerect" type="string">{{0, 163}, {803, 414}}</attribute>
         <attribute name="lasteditdate" type="date">393160419.28528302907943725586</attribute>
         <attribute name="istext" type="bool">1</attribute>
@@ -447,12 +447,12 @@
     </object>
     <object type="TEXFILE" id="z134">
         <attribute name="wasopen" type="bool">7</attribute>
-        <attribute name="visiblerect" type="string">{{0, 404}, {852, 393}}</attribute>
-        <attribute name="lasteditdate" type="date">394360376.96789801120758056641</attribute>
+        <attribute name="visiblerect" type="string">{{5, 0}, {635, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394365937.74279701709747314453</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394360379.44848299026489257812</attribute>
+        <attribute name="fileloaddate" type="date">394369418.60902798175811767578</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{2976, 0}</attribute>
+        <attribute name="cursor" type="string">{2357, 0}</attribute>
         <attribute name="sortindex" type="int32">3</attribute>
         <attribute name="name" type="string">Peng.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
@@ -483,10 +483,10 @@
     </object>
     <object type="TEXFILE" id="z136">
         <attribute name="wasopen" type="bool">1</attribute>
-        <attribute name="visiblerect" type="string">{{0, 0}, {858, 393}}</attribute>
-        <attribute name="lasteditdate" type="date">394357555.53568899631500244141</attribute>
+        <attribute name="visiblerect" type="string">{{0, 101}, {587, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394374775.92938798666000366211</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394357560.59768599271774291992</attribute>
+        <attribute name="fileloaddate" type="date">394374777.44429600238800048828</attribute>
         <attribute name="extension" type="string">tex</attribute>
         <attribute name="cursor" type="string">{813, 0}</attribute>
         <attribute name="sortindex" type="int32">5</attribute>
@@ -519,12 +519,12 @@
     </object>
     <object type="TEXFILE" id="z138">
         <attribute name="wasopen" type="bool">2</attribute>
-        <attribute name="visiblerect" type="string">{{0, 117}, {858, 393}}</attribute>
-        <attribute name="lasteditdate" type="date">394357625.25611400604248046875</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {587, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394374808.59146398305892944336</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394357630.73470199108123779297</attribute>
+        <attribute name="fileloaddate" type="date">394374831.63428199291229248047</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{1143, 0}</attribute>
+        <attribute name="cursor" type="string">{60, 0}</attribute>
         <attribute name="sortindex" type="int32">7</attribute>
         <attribute name="name" type="string">5forces.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
@@ -537,12 +537,12 @@
     </object>
     <object type="TEXFILE" id="z139">
         <attribute name="wasopen" type="bool">3</attribute>
-        <attribute name="visiblerect" type="string">{{0, 66}, {858, 393}}</attribute>
-        <attribute name="lasteditdate" type="date">394357386.06821900606155395508</attribute>
+        <attribute name="visiblerect" type="string">{{0, 134}, {587, 393}}</attribute>
+        <attribute name="lasteditdate" type="date">394374869.48260802030563354492</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394357392.82059299945831298828</attribute>
+        <attribute name="fileloaddate" type="date">394374875.07232099771499633789</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{813, 0}</attribute>
+        <attribute name="cursor" type="string">{818, 0}</attribute>
         <attribute name="sortindex" type="int32">6</attribute>
         <attribute name="name" type="string">Diamond.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
