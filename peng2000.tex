@@ -5,7 +5,8 @@
 % STYLES
 \tikzset{
     ellips/.style={ellipse, minimum width=100pt,
-    align=center,node distance=3cm,inner sep=5pt,text width=2.5cm,minimum height=2.0cm,>=stealth'}%fill=black!10
+    align=center,node distance=3cm,inner sep=5pt,text width=2.5cm,minimum    
+    height=2.0cm,>=stealth'}%fill=black!10
 }
 
 \node [ellips](Choices) {Strategic Choices};
@@ -15,8 +16,10 @@
 
 % Draw the links between 
 \path[<->,thick] 
- (Choices) edge node[anchor=center, text width=3.5cm, below left, midway] {Industry conditions and firm-specific resources}  (Institutions) 
- (Choices) edge node[anchor=center, text width=3.5cm, below right, midway] {Formal and informal constraints} (Organisations)
+   (Choices) edge node[anchor=center, text width=3.5cm, below left, midway] {Industry conditions and 
+    firm-specific resources}  (Institutions) 
+   (Choices) edge node[anchor=center, text width=3.5cm, below right, midway] {Formal and informal 
+   constraints} (Organisations)
  (Institutions) edge  node [midway, below] {interaction} node[midway, above] {Dynamic} (Organisations);
 
 \end{tikzpicture} 
