@@ -1,8 +1,8 @@
-\begin{figure}[h]
-\label{fig:5forces} 
+\begin{figure}[ht!]
 \centering
 \begin{tikzpicture}
-[node distance = 1cm, auto,font=\footnotesize,
+[
+node distance = 1cm, auto,font=\footnotesize,
 % STYLES
 every node/.style={node distance=3cm},
 % The comment style is used to describe the characteristics of each force
@@ -10,25 +10,19 @@ comment/.style={rectangle, inner sep= 5pt, text width=4cm, node distance=0.25cm,
 % The force style is used to draw the forces' name
 force/.style={rectangle,rounded corners, draw, fill=black!10, inner sep=5pt, text width=4cm, text badly centered, minimum height=1.3cm}
 ] 
-
 % Draw forces
 \node [force] (rivalry) {Rivalry among existing competitors};
 \node [force, above of=rivalry] (substitutes) {Threat of substitutes};
 \node [force, left=1cm of rivalry] (suppliers) {Bargaining power of suppliers};
 \node [force, right=1cm of rivalry] (users) {Bargaining power of users};
 \node [force, below of=rivalry] (entrants) {Threat of new entrants};
-
-%%%%%%%%%%%%%%%
-% Change data from here
-
-
 % Draw the links between forces
 \path[->,thick] 
 (substitutes) edge (rivalry)
 (suppliers) edge (rivalry)
 (users) edge (rivalry)
 (entrants) edge (rivalry);
-
 \end{tikzpicture} 
 \caption{Five Forces Diagram source:~\cite{Porter:1980}}%
+\label{fig:5forces} %
 \end{figure}

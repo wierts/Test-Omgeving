@@ -1,20 +1,15 @@
-\begin{figure}[h]
-
+\begin{figure}[ht!]
 \centering
 \begin{tikzpicture}
 % STYLES
 \tikzstyle{every node}=[rectangle,rounded corners, minimum width=100pt,
     align=center,node distance=3cm,fill=black!10,inner sep=5pt,text width=3cm,minimum height=1.75cm,>=stealth,text badly centered]
-
-
 % Draw forces
 \node [force, above of=rivalry] (top) {Firm strategy, structure and rivalry};
 \node [force, left=1cm of rivalry] (left) {Factor conditions};
 \node [force, right=1cm of rivalry] (right) {Demand Conditions};
 \node [force, below of=rivalry] (bottom) {Related and Supporting industries};
-
 %%%%%%%%%%%%%%%%
-
 % Draw the links between forces
 \path[<->,thick] 
 (left) edge (right)
@@ -22,11 +17,9 @@
 (left) edge (bottom)
 (top) edge (right)
 (bottom) edge (right);
-
 \path[<->,thick] 
 (bottom) edge (top);
-
 \end{tikzpicture} 
-
-\label{fig:Diamond} \caption{Diamond from~\cite{Porter:1980}}%
+\caption{Porter's Diamond source:~\cite{Porter:1980}}%
+\label{fig:diamond} 
 \end{figure}
