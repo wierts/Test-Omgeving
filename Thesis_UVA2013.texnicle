@@ -99,12 +99,12 @@
     </object>
     <object type="TEXFILE" id="z105">
         <attribute name="wasopen" type="bool">0</attribute>
-        <attribute name="visiblerect" type="string">{{0, 11}, {940, 380}}</attribute>
-        <attribute name="lasteditdate" type="date">394471336.05738198757171630859</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {940, 380}}</attribute>
+        <attribute name="lasteditdate" type="date">394471590.74360400438308715820</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394471337.54714101552963256836</attribute>
+        <attribute name="fileloaddate" type="date">394471596.89403402805328369141</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{558, 0}</attribute>
+        <attribute name="cursor" type="string">{557, 0}</attribute>
         <attribute name="sortindex" type="int32">0</attribute>
         <attribute name="name" type="string">Thesis_UvA_Duco_Wiertsema.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
