@@ -25,7 +25,7 @@
 %\usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{eucal}
-\usepackage[usenames, dvipsnames]{color}
+\usepackage[usenames,dvipsnames]{color} %
 %\usepackage[perpage]{footmisc}
 \usepackage{fancyhdr}
 \usepackage{ifthen}
