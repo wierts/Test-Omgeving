@@ -84,7 +84,7 @@
         <attribute name="name" type="string">Thesis_UVA2013</attribute>
         <attribute name="folder" type="string">/Users/duco/Documents/Thesis</attribute>
         <relationship name="mainfile" type="1/1" destination="FILE" idrefs="z105"></relationship>
-        <relationship name="selected" type="1/1" destination="FILE" idrefs="z105"></relationship>
+        <relationship name="selected" type="1/1" destination="FILE" idrefs="z106"></relationship>
         <relationship name="settings" type="1/1" destination="SETTINGS" idrefs="z102"></relationship>
         <relationship name="uisettings" type="1/1" destination="UISETTINGS" idrefs="z104"></relationship>
         <relationship name="items" type="0/0" destination="PROJECTITEM" idrefs="z142 z118 z127 z137 z139 z112 z134 z143 z117 z135 z121 z125 z113 z126 z136 z120 z141 z138"></relationship>
@@ -99,12 +99,12 @@
     </object>
     <object type="TEXFILE" id="z105">
         <attribute name="wasopen" type="bool">0</attribute>
-        <attribute name="visiblerect" type="string">{{0, 11}, {940, 380}}</attribute>
-        <attribute name="lasteditdate" type="date">394471336.05738198757171630859</attribute>
+        <attribute name="visiblerect" type="string">{{0, 776}, {940, 380}}</attribute>
+        <attribute name="lasteditdate" type="date">394471738.80569499731063842773</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394471337.54714101552963256836</attribute>
+        <attribute name="fileloaddate" type="date">394471738.81228697299957275391</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{558, 0}</attribute>
+        <attribute name="cursor" type="string">{2223, 0}</attribute>
         <attribute name="sortindex" type="int32">0</attribute>
         <attribute name="name" type="string">Thesis_UvA_Duco_Wiertsema.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
@@ -117,12 +117,12 @@
     </object>
     <object type="TEXFILE" id="z106">
         <attribute name="wasopen" type="bool">9</attribute>
-        <attribute name="visiblerect" type="string">{{0, 0}, {934, 380}}</attribute>
-        <attribute name="lasteditdate" type="date">394469429.63698899745941162109</attribute>
+        <attribute name="visiblerect" type="string">{{0, 1265}, {934, 380}}</attribute>
+        <attribute name="lasteditdate" type="date">394471764.30377501249313354492</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">394469429.63754600286483764648</attribute>
+        <attribute name="fileloaddate" type="date">394471768.16272300481796264648</attribute>
         <attribute name="extension" type="string">tex</attribute>
-        <attribute name="cursor" type="string">{652, 0}</attribute>
+        <attribute name="cursor" type="string">{2778, 0}</attribute>
         <attribute name="sortindex" type="int32">13</attribute>
         <attribute name="name" type="string">preamble.tex</attribute>
         <attribute name="isexpanded" type="bool">0</attribute>
