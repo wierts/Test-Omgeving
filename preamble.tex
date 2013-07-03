@@ -7,9 +7,10 @@
 \usepackage{url} % om urls goed weer te geven in voetnoten
 \usepackage[toc,page,title]{appendix}
 \usepackage[multiple,flushmargin]{footmisc}
-%\usepackage{cprotect} %gebruikt om verbatim in footnotes te zetten
+\usepackage{booktabs}% om mooie tabellen te maken
 \usepackage{hanging}% provides the \hangpara command
 \usepackage{enumerate}
+\usepackage{float} %gebruikt om floatplacement te activeren
 \usepackage[acronym,toc]{glossaries}  
 \usepackage{tikz} % tekenen van plaatjes
 \usetikzlibrary{arrows,shapes,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
@@ -77,12 +78,12 @@
 
 \renewcommand{\captionfont}{\small\textit}
 
-\renewcommand{\headrule}{{\color{red}%
+\renewcommand{\headrule}{{\color{gray}%
 \hrule width\headwidth%
  height\headrulewidth \vskip-\headrulewidth}
  }
-%\setlength{\footrulewidth}{\headrulewidth}
-\renewcommand{\footrule}{{\color{blue}% 
+
+\renewcommand{\footrule}{{\color{gray}% 
   \vskip-\footruleskip\vskip-\footrulewidth%
 \hrule width\headwidth height\footrulewidth\vskip\footruleskip}
 }
@@ -95,7 +96,8 @@
 \input{titlepage}
 
 %----------einde titel opmaak-------------------
-%\floatplacement{table}{htbp} \floatplacement{figure}{htbp}
+\floatplacement{table}{htbp} 
+\floatplacement{figure}{htbp}
 %\floatstyle{plaintop} \restylefloat{table}
 %\renewcommand{\vec}{\boldsymbol}
 %\newcommand{\unit}[1]{\ \mathrm{#1}}
