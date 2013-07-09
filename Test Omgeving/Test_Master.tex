@@ -10,15 +10,21 @@
 \input{ix-utf8enc.dfu}
 \usepackage{hyperref}
 \usepackage{csquotes}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 \usepackage[T1]{fontenc}
 %\DeclareUnicodeCharacter{0169}{\~u} % make the character known
 
 \bibliography{Bibliography_papers_test}%
 
 \begin{document}
-\tableofcontents
+\listoffigures
 
-\section{One}
+\tableofcontents
+\newpage
+\section{eerste}
+
+\input{diamond}
 
 This is my test text~\citeauthor{Dung:2012}
 
