@@ -3,7 +3,7 @@
 \usepackage[hyperref=true,
             url=false,
             isbn=false,
-            style=verbose,sorting=none,babel=other,backend=biber,
+            style=verbose,sorting=nyt,babel=other,backend=biber,
             ]{biblatex}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -26,9 +26,10 @@
 
 \input{diamond}
 
-This is my test text~\citeauthor{Dung:2012}
+This is my test text~\cite{Dung:2012}
 
 %\addcontentsline{toc}{chapter}{Bibliography}
-\printbibliography%
-
+%\bibliography{}%
+%\bibliographystyle{jf}
+\printbibliography
 \end{document}
