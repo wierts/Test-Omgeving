@@ -168,9 +168,9 @@
 \vspace*{1ex}
     {{ \huge \@university} \par}
 \vspace*{2ex}
-    {{ \huge \submittedtextA \space \@superA}  \par}
+    {{ \Large \submittedtextA \space \@superA}  \par}
 \vspace*{1ex}
-    {{ \huge \submittedtextB \space \@superB}  \par}
+    {{ \Large \submittedtextB \space \@superB}  \par}
 \vspace*{15mm}
     {{\Large \submittedtext} \par}
 \vspace*{1ex}
