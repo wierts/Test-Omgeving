@@ -1,0 +1,50 @@
+\documentclass[a4paper,oneside,11pt]{article}%,openright
+
+\usepackage[hyperref=true,
+            url=false,
+            isbn=false,
+            bibstyle=authortitle,
+            citestyle=authoryear-ibid,
+            sorting=nyt,
+            babel=other,
+            backend=biber,
+            %natbib=true,
+            %terseinits,
+            ]{biblatex}
+
+
+%\usepackage[backend=bibtex,
+            %bibstyle=authortitle,
+            %firstinits,
+            %terseinits,
+%            citestyle=authoryear]
+ %           {biblatex} %            
+            
+\usepackage[english]{babel}
+%\usepackage[utf8]{inputenc}
+\input{ix-utf8enc.dfu}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage[T1]{fontenc}
+%\DeclareUnicodeCharacter{0169}{\~u} % make the character known
+
+\bibliography{Bibliography_papers_test}%
+
+\begin{document}
+\listoffigures
+
+\tableofcontents
+\newpage
+\section{eerste}
+
+\input{diamond}
+
+This is my test text~\parencite{Dung:2012}
+
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\bibliography{}%
+%\bibliographystyle{jf}
+\printbibliography
+\end{document}

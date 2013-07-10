@@ -1,0 +1,67 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nyt}
+    \entry{Dung:2012}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6ae2d5f46e1fbb0bdf4ab29d72b707a7}{Dũng}{D\bibinitperiod}{Ngô\bibnamedelima Vi}{N\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6ae2d5f46e1fbb0bdf4ab29d72b707a7}{Dũng}{D\bibinitperiod}{Ngô\bibnamedelima Vi}{N\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6ae2d5f46e1fbb0bdf4ab29d72b707a7}
+      \strng{fullhash}{6ae2d5f46e1fbb0bdf4ab29d72b707a7}
+      \field{sortinit}{D}
+      \field{labelyear}{2012}
+      \field{labeltitle}{{An Institution-Based View of the Competitive Advantage of Firms in Emerging and Transition Economies}}
+      \field{title}{{An Institution-Based View of the Competitive Advantage of Firms in Emerging and Transition Economies}}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+    \endentry
+    \entry{Porter:1980}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8bdb63776d3503d17265145e18b8bed4}{Porter}{P\bibinitperiod}{Michael\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8bdb63776d3503d17265145e18b8bed4}{Porter}{P\bibinitperiod}{Michael\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{8bdb63776d3503d17265145e18b8bed4}
+      \strng{fullhash}{8bdb63776d3503d17265145e18b8bed4}
+      \field{sortinit}{P}
+      \field{labelyear}{1980}
+      \field{labeltitle}{{Industry structure and competitive strategy: Keys to profitability}}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{title}{{Industry structure and competitive strategy: Keys to profitability}}
+      \field{year}{1980}
+      \field{pages}{30\bibrangedash 41}
+      \verb{file}
+      \verb {1980 Porter.pdf:/Users/duco/Dropbox/Papers2/Articles/1980/Porter/1980 Porter.pdf:application/pdf}
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/10.2307/4478361
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
