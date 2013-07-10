@@ -1,14 +1,14 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
-[1] Config.pm:390> INFO - Logfile is '/Users/duco/Documents/Thesis/Test Omgeving/.texpadtmp/Test_Master.blg'
-[97] biber-darwin:218> INFO - === Tue Jul  9, 2013, 17:24:50
-[98] Biber.pm:325> INFO - Reading '/Users/duco/Documents/Thesis/Test Omgeving/.texpadtmp/Test_Master.bcf'
-[184] Biber.pm:623> INFO - Found 2 citekeys in bib section 0
-[197] Biber.pm:2995> INFO - Processing section 0
-[216] Biber.pm:3129> INFO - Looking for bibtex format file '/Users/duco/Documents/Thesis/Test Omgeving/Bibliography_papers_test.bib' for section 0
-[219] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
-[224] bibtex.pm:775> INFO - Found BibTeX data source '/Users/duco/Documents/Thesis/Test Omgeving/Bibliography_papers_test.bib'
-[292] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[293] Biber.pm:2887> INFO - Sorting 'entry' list 'nyt' keys
-[293] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[317] bbl.pm:472> INFO - Writing '/Users/duco/Documents/Thesis/Test Omgeving/.texpadtmp/Test_Master.bbl' with encoding 'UTF-8'
-[318] bbl.pm:545> INFO - Output to /Users/duco/Documents/Thesis/Test Omgeving/.texpadtmp/Test_Master.bbl
+[1] Config.pm:390> INFO - Logfile is '/Users/duco/Documents/Thesis_UvA/Test Omgeving/.texpadtmp/Test_Master.blg'
+[106] biber-darwin:218> INFO - === Wed Jul 10, 2013, 15:12:09
+[108] Biber.pm:325> INFO - Reading '/Users/duco/Documents/Thesis_UvA/Test Omgeving/.texpadtmp/Test_Master.bcf'
+[195] Biber.pm:623> INFO - Found 2 citekeys in bib section 0
+[224] Biber.pm:2995> INFO - Processing section 0
+[267] Biber.pm:3129> INFO - Looking for bibtex format file '/Users/duco/Documents/Thesis_UvA/Test Omgeving/Bibliography_papers_test.bib' for section 0
+[271] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[276] bibtex.pm:775> INFO - Found BibTeX data source '/Users/duco/Documents/Thesis_UvA/Test Omgeving/Bibliography_papers_test.bib'
+[397] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[397] Biber.pm:2887> INFO - Sorting 'entry' list 'nyt' keys
+[397] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[427] bbl.pm:472> INFO - Writing '/Users/duco/Documents/Thesis_UvA/Test Omgeving/.texpadtmp/Test_Master.bbl' with encoding 'UTF-8'
+[428] bbl.pm:545> INFO - Output to /Users/duco/Documents/Thesis_UvA/Test Omgeving/.texpadtmp/Test_Master.bbl
