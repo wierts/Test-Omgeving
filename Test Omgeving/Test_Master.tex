@@ -1,4 +1,4 @@
-\documentclass[a4paper,oneside,11pt]{article}%,openright
+\documentclass[a4paper,oneside,11pt]{report}%,openright
 
 \usepackage[hyperref=true,
             url=false,
@@ -13,20 +13,80 @@
 \usepackage{tikz}
 \usetikzlibrary{positioning}
 \usepackage[T1]{fontenc}
+
+\usepackage[
+  nomain,acronym,toc,
+  xindy
+  ]{glossaries}
+\makeglossaries
 %\DeclareUnicodeCharacter{0169}{\~u} % make the character known
 
 \bibliography{Bibliography_papers_test}%
 
-\begin{document}
-\listoffigures
+\newacronym{IP}{IP}{Intellectual Property}
+\newacronym{IB}{IB}{International business}
 
+%_________THEOREM test%%%%%%%%%%%%%%
+\makeatletter
+\newenvironment{subtheorem}[1]{%
+  \def\subtheoremcounter{#1}%
+  \refstepcounter{#1}%
+  \protected@edef\theparentnumber{\csname the#1\endcsname}%
+  \setcounter{parentnumber}{\value{#1}}%
+  \setcounter{#1}{0}%
+  \expandafter\def\csname the#1\endcsname{\theparentnumber.\Alph{#1}}%
+  \ignorespaces
+}{%
+  \setcounter{\subtheoremcounter}{\value{parentnumber}}%
+  \ignorespacesafterend
+}
+\makeatother
+\newcounter{parentnumber}
+
+\newtheorem{thm}{Working Assumption}
+
+
+\begin{document}
 \tableofcontents
+\listoffigures
 \newpage
-\section{eerste}
+\printglossaries
+\newpage
+
+\newpage
+\section{Eerste Sectie}
 
 \input{diamond}
 
-This is my test text~\cite{Dung:2012}
+Maar er is een verschil tussen \gls{IP} en \gls{IB}.
+Dit is ook duidelijk als je ze afkort tot \gls{IP} en \gls{IB}.\\
+
+
+This is my test text~\cite{Dung:2012} 
+
+\chapter{WA}
+
+
+
+\begin{thm}\label{thm:one}
+One
+\end{thm}
+
+\begin{subtheorem}{thm}\label{thm:two}
+\begin{thm}\label{thm:twoA}
+Two, first part
+\end{thm}
+
+\begin{thm}\label{thm:twoB}
+Two, second part
+\end{thm}
+\end{subtheorem}
+
+\begin{thm}\label{thm:three}
+Three
+\end{thm}
+
+\ref{thm:one}, \ref{thm:two}, \ref{thm:twoA}, \ref{thm:twoB}, \ref{thm:three}.
 
 %\addcontentsline{toc}{chapter}{Bibliography}
 %\bibliography{}%
